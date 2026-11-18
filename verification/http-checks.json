@@ -1,0 +1,1316 @@
+{
+  "base": "http://127.0.0.1:3110",
+  "pages": [
+    {
+      "route": "/",
+      "status": 200
+    },
+    {
+      "route": "/about",
+      "status": 200
+    },
+    {
+      "route": "/team",
+      "status": 200
+    },
+    {
+      "route": "/events",
+      "status": 200
+    },
+    {
+      "route": "/resources",
+      "status": 200
+    },
+    {
+      "route": "/join",
+      "status": 200
+    },
+    {
+      "route": "/gallery",
+      "status": 200
+    },
+    {
+      "route": "/events/dhyanratri-2026",
+      "status": 200
+    },
+    {
+      "route": "/events/antardhyanam-2026",
+      "status": 200
+    },
+    {
+      "route": "/events/nba-inspection-visit-2026",
+      "status": 200
+    },
+    {
+      "route": "/events/nasha-mukt-yuva-2026",
+      "status": 200
+    },
+    {
+      "route": "/events/mba-ashram-visit-2026",
+      "status": 200
+    },
+    {
+      "route": "/events/international-yoga-day-2026",
+      "status": 200
+    },
+    {
+      "route": "/events/yoga-with-youth-2026",
+      "status": 200
+    },
+    {
+      "route": "/events/yogmahotsav-summit-2026",
+      "status": 200
+    },
+    {
+      "route": "/events/plantation-drive-2026",
+      "status": 200
+    },
+    {
+      "route": "/events/ashram-visit-iit-bombay-2026",
+      "status": 200
+    },
+    {
+      "route": "/events/21-days-meditation-2026",
+      "status": 200
+    },
+    {
+      "route": "/events/dhyanotsav-sy-2026",
+      "status": 200
+    },
+    {
+      "route": "/events/dhyanotsav-fy-2026",
+      "status": 200
+    },
+    {
+      "route": "/events/kanha-shanti-vanam-2026",
+      "status": 200
+    },
+    {
+      "route": "/events/weekly-meditation-2026",
+      "status": 200
+    },
+    {
+      "route": "/events/wellness-fest-2025",
+      "status": 200
+    },
+    {
+      "route": "/events/dhyanratri-2025",
+      "status": 200
+    },
+    {
+      "route": "/events/dhyanotsav-2024",
+      "status": 200
+    },
+    {
+      "route": "/events/dhyanratri-2024",
+      "status": 200
+    },
+    {
+      "route": "/events/yoga-by-the-bay-2024",
+      "status": 200
+    },
+    {
+      "route": "/events/21-days-meditation-2024",
+      "status": 200
+    },
+    {
+      "route": "/events/go-flow-run-2024",
+      "status": 200
+    },
+    {
+      "route": "/events/wht-now-2024",
+      "status": 200
+    },
+    {
+      "route": "/events/women-appreciation-2023",
+      "status": 200
+    },
+    {
+      "route": "/events/world-meditation-day-2023",
+      "status": 200
+    },
+    {
+      "route": "/events/dhyanotsav-2023",
+      "status": 200
+    },
+    {
+      "route": "/events/21-days-meditation-2023",
+      "status": 200
+    },
+    {
+      "route": "/events/sunday-group-meditation-2023",
+      "status": 200
+    },
+    {
+      "route": "/events/wellness-fest-yog-mahotsav-2023",
+      "status": 200
+    },
+    {
+      "route": "/events/21-days-meditation-2022",
+      "status": 200
+    },
+    {
+      "route": "/events/kanha-shanti-vanam-2022",
+      "status": 200
+    },
+    {
+      "route": "/gallery?event=yoga-with-youth-2026",
+      "status": 200
+    },
+    {
+      "route": "/gallery?event=wellness-fest-2025",
+      "status": 200
+    },
+    {
+      "route": "/gallery?event=world-meditation-day-2024",
+      "status": 200
+    },
+    {
+      "route": "/gallery?event=dhyanotsav-2024",
+      "status": 200
+    },
+    {
+      "route": "/gallery?event=wht-now-2024",
+      "status": 200
+    },
+    {
+      "route": "/gallery?event=dhyanotsav-2023",
+      "status": 200
+    },
+    {
+      "route": "/gallery?event=stree-jyoti-puraskar-2023",
+      "status": 200
+    },
+    {
+      "route": "/gallery?event=yog-mahotsav-panvel-2023",
+      "status": 200
+    },
+    {
+      "route": "/gallery?event=wellness-fest-yog-mahotsav-2023",
+      "status": 200
+    },
+    {
+      "route": "/gallery?event=sunday-group-meditation-2023",
+      "status": 200
+    },
+    {
+      "route": "/gallery?event=dhyanotsav-2022",
+      "status": 200
+    },
+    {
+      "route": "/gallery?event=kanha-shanti-vanam",
+      "status": 200
+    },
+    {
+      "route": "/gallery?event=panvel-ashram-visit",
+      "status": 200
+    },
+    {
+      "route": "/gallery?event=go-flow-run",
+      "status": 200
+    },
+    {
+      "route": "/events?year=2022",
+      "status": 200
+    },
+    {
+      "route": "/events?year=2023",
+      "status": 200
+    },
+    {
+      "route": "/events?year=2024",
+      "status": 200
+    },
+    {
+      "route": "/events?year=2025",
+      "status": 200
+    },
+    {
+      "route": "/events?year=2026",
+      "status": 200
+    }
+  ],
+  "assets": [
+    {
+      "asset": "/apple-icon.png",
+      "status": 200
+    },
+    {
+      "asset": "/icon-dark-32x32.png",
+      "status": 200
+    },
+    {
+      "asset": "/icon-light-32x32.png",
+      "status": 200
+    },
+    {
+      "asset": "/icon.svg",
+      "status": 200
+    },
+    {
+      "asset": "/images/abt_section.jpeg",
+      "status": 200
+    },
+    {
+      "asset": "/images/aditi-muni-1.jpeg",
+      "status": 200
+    },
+    {
+      "asset": "/images/aditi-muni.png",
+      "status": 200
+    },
+    {
+      "asset": "/images/events/Picture.jpeg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events/Picture1.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events/Picture2.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events/Picture1.png",
+      "status": 200
+    },
+    {
+      "asset": "/images/events/Picture2.png",
+      "status": 200
+    },
+    {
+      "asset": "/images/events/Picture3.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events/Picture3.png",
+      "status": 200
+    },
+    {
+      "asset": "/images/events/Picture4.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events/Picture4.png",
+      "status": 200
+    },
+    {
+      "asset": "/images/events/Picture5.png",
+      "status": 200
+    },
+    {
+      "asset": "/images/events/Picture6.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events/Picture6.png",
+      "status": 200
+    },
+    {
+      "asset": "/images/events/Picture7.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events/Picture8.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events/ayush-minister-felicitation.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events/best-heartful-campus-2.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events/best-heartful-campus.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events/book-distribution.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events/centre-of-excellence.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events/core-team.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events/dhyanotsav-auditorium.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events/formation-2019.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events/kanha-dome.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events/kanha-visit.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events/naac-recognition.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events/recruitment-session.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events/stage-gathering.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events/team-auditorium.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events/yoga-session.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events/yoga-with-youth.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events/youth-ambassador-award.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/21-days-meditation-2022-1.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/21-days-meditation-2022-2.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/21-days-meditation-2022-3.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/21-days-meditation-2022-4.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/21-days-meditation-2022-5.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/21-days-meditation-2023-1.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/21-days-meditation-2023-2.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/21-days-meditation-2023-3.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/21-days-meditation-2023-4.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/21-days-meditation-2023-5.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/21-days-meditation-2024-1.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/21-days-meditation-2024-2.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/21-days-meditation-2024-3.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/21-days-meditation-2024-4.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/21-days-meditation-2024-5.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/21-days-meditation-2024-6.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/21-days-meditation-2026-1.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/21-days-meditation-2026-2.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/21-days-meditation-2026-3.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/21-days-meditation-2026-4.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/antardhyanam-2026-1.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/antardhyanam-2026-2.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/antardhyanam-2026-3.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/antardhyanam-2026-4.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/antardhyanam-2026-5.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/ashram-visit-iit-bombay-2026-1.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/ashram-visit-iit-bombay-2026-2.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/ashram-visit-iit-bombay-2026-3.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/best-heartful-campus.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/centre-of-excellence.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/core-team.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/dhyanotsav-2023-1.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/dhyanotsav-2023-2.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/dhyanotsav-2023-3.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/dhyanotsav-2023-4.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/dhyanotsav-2023-5.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/dhyanotsav-2024-1.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/dhyanotsav-2024-2.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/dhyanotsav-2024-3.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/dhyanotsav-fy-2026-1.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/dhyanotsav-fy-2026-2.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/dhyanotsav-fy-2026-3.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/dhyanotsav-fy-2026-4.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/dhyanotsav-fy-2026-5.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/dhyanotsav-fy-2026-6.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/dhyanotsav-fy-2026-7.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/dhyanotsav-sy-2026-1.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/dhyanotsav-sy-2026-2.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/dhyanotsav-sy-2026-3.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/dhyanratri-2024-1.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/dhyanratri-2024-2.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/dhyanratri-2024-3.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/dhyanratri-2024-4.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/dhyanratri-2024-5.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/dhyanratri-2025-1.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/dhyanratri-2025-2.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/dhyanratri-2025-3.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/dhyanratri-2026-1.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/dhyanratri-2026-2.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/dhyanratri-2026-3.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/dhyanratri-2026-4.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/formation-2019.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/go-flow-run-2024-1.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/go-flow-run-2024-2.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/go-flow-run-2024-3.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/go-flow-run-2024-4.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/go-flow-run-2024-5.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/go-flow-run-2024-6.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/international-yoga-day-2026-1.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/international-yoga-day-2026-3.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/international-yoga-day-2026-4.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/international-yoga-day-2026-2.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/international-yoga-day-2026-5.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/kanha-shanti-vanam-2022-1.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/kanha-shanti-vanam-2022-2.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/kanha-shanti-vanam-2022-3.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/kanha-shanti-vanam-2022-4.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/kanha-shanti-vanam-2026-1.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/kanha-shanti-vanam-2026-2.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/kanha-shanti-vanam-2026-3.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/kanha-shanti-vanam-2026-4.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/kanha-shanti-vanam-2026-5.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/kanha-shanti-vanam-2026-6.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/mba-ashram-visit-2026-1.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/mba-ashram-visit-2026-2.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/mba-ashram-visit-2026-3.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/mba-ashram-visit-2026-4.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/mba-ashram-visit-2026-5.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/naac-recognition.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/nasha-mukt-yuva-2026-1.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/nasha-mukt-yuva-2026-2.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/nba-inspection-visit-2026-1.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/nba-inspection-visit-2026-2.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/nba-inspection-visit-2026-3.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/nba-inspection-visit-2026-5.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/nba-inspection-visit-2026-6.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/plantation-drive-2026-1.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/nba-inspection-visit-2026-4.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/plantation-drive-2026-2.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/plantation-drive-2026-3.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/plantation-drive-2026-4.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/recruitment-session.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/sunday-group-meditation-2023-1.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/sunday-group-meditation-2023-2.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/sunday-group-meditation-2023-3.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/sunday-group-meditation-2023-4.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/sunday-group-meditation-2023-5.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/upcoming-ashram-visit.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/upcoming-dhyanotsav.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/upcoming-kanha-shanti-vanam.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/weekly-meditation-1.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/weekly-meditation-2.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/weekly-meditation-2026-1.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/weekly-meditation-2026-2.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/wellness-fest-2025-1.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/wellness-fest-2025-2.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/wellness-fest-2025-3.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/wellness-fest-2025-4.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/wellness-fest-2025-5.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/wellness-fest-2025-6.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/wellness-fest-yog-mahotsav-2023-1.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/wellness-fest-yog-mahotsav-2023-2.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/wellness-fest-yog-mahotsav-2023-3.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/wellness-fest-yog-mahotsav-2023-4.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/wellness-fest-yog-mahotsav-2023-5.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/wht-now-2024-1.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/wht-now-2024-2.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/women-appreciation-2023-1.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/women-appreciation-2023-2.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/women-appreciation-2023-3.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/women-appreciation-2023-4.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/women-appreciation-2023-5.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/women-appreciation-2023-6.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/women-appreciation-2023-7.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/world-meditation-day-2023-1.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/world-meditation-day-2023-2.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/world-meditation-day-2023-3.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/yoga-by-the-bay-2024-1.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/yoga-by-the-bay-2024-2.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/yoga-with-youth-2026-1.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/yoga-with-youth-2026-2.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/yoga-with-youth-2026-3.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/yoga-with-youth-2026-4.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/yoga-with-youth-2026-5.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/yoga-with-youth.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/yogmahotsav-summit-2026-1.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/yogmahotsav-summit-2026-2.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/yogmahotsav-summit-2026-3.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/yogmahotsav-summit-2026-4.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/yogmahotsav-summit-2026-5.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/yogmahotsav-summit-2026-6.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/events-page/youth-ambassador-award.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/hero.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/resmi-ramakrishnan.png",
+      "status": 200
+    },
+    {
+      "asset": "/images/romax-rajeev.png",
+      "status": 200
+    },
+    {
+      "asset": "/images/soham-kokate.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/images/tapas-logo.png",
+      "status": 200
+    },
+    {
+      "asset": "/images/vivek-yadav.png",
+      "status": 200
+    },
+    {
+      "asset": "/placeholder-logo.png",
+      "status": 200
+    },
+    {
+      "asset": "/placeholder-logo.svg",
+      "status": 200
+    },
+    {
+      "asset": "/placeholder-user.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/placeholder.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/placeholder.svg",
+      "status": 200
+    },
+    {
+      "asset": "/team-archive/2019-2021.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/team-archive/2021-2022.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/team-archive/2022-2023.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/team-archive/2023-2024.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/team-archive/2024-2025.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/team-archive/2025-2026.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/team-current/2026-2027.jpg",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/dhyanotsav-2022-album-1.235c0f95.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/dhyanotsav-2022-cover-1.734a7896.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/dhyanotsav-2022-home-1.a19a67d7.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/dhyanotsav-2023-cover-1.4009d34d.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/dhyanotsav-2023-home-1.3d5e8c12.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/dhyanotsav-2024-cover-1.ac76d755.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/dhyanotsav-2024-home-1.1b10257b.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/dhyanotsav-2024-moment-1.a7fb7c3c.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/go-flow-run-album-1.f616dfb5.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/go-flow-run-cover-1.201c80d3.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/go-flow-run-home-1.d927dcb8.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/go-flow-run-moment-1.bdb4212a.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/kanha-shanti-vanam-album-1.4d04435f.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/kanha-shanti-vanam-album-2.4427b3bd.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/kanha-shanti-vanam-cover-1.e0a7d796.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/kanha-shanti-vanam-home-1.581df7a0.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/kanha-shanti-vanam-home-2.2ac8d7d2.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/kanha-shanti-vanam-moment-1.99320edf.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/panvel-ashram-visit-album-1.495ce5f9.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/panvel-ashram-visit-cover-1.833feb8a.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/panvel-ashram-visit-home-1.a2f4412e.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/panvel-ashram-visit-home-2.4c6856a7.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/panvel-ashram-visit-moment-1.c7a5027b.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/stree-jyoti-puraskar-2023-album-1.caba8fb7.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/stree-jyoti-puraskar-2023-album-2.af9bc62f.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/stree-jyoti-puraskar-2023-cover-1.70bfd77a.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/stree-jyoti-puraskar-2023-home-1.2fde63ba.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/stree-jyoti-puraskar-2023-moment-1.885cc6c7.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/sunday-group-meditation-2023-album-1.66979ce3.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/sunday-group-meditation-2023-cover-1.638d1ac5.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/wellness-fest-2025-album-1.453b6a5d.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/wellness-fest-2025-album-2.e2c9a39c.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/wellness-fest-2025-album-3.10e74055.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/wellness-fest-2025-cover-1.cd52f9bf.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/wellness-fest-2025-home-1.e61d499c.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/wellness-fest-2025-home-2.27840ee0.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/wellness-fest-2025-home-3.3e3aa521.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/wellness-fest-2025-moment-1.dc909b24.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/wellness-fest-2025-moment-2.a7386d33.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/wellness-fest-yog-mahotsav-2023-album-1.5cf7cd28.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/wellness-fest-yog-mahotsav-2023-album-2.b3b0e8b1.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/wellness-fest-yog-mahotsav-2023-album-3.0e484e49.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/wellness-fest-yog-mahotsav-2023-cover-1.f3611c5c.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/wellness-fest-yog-mahotsav-2023-home-1.7f17a4ea.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/wellness-fest-yog-mahotsav-2023-home-2.1798a048.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/wellness-fest-yog-mahotsav-2023-moment-1.a8305d6c.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/wht-now-2024-cover-1.0cf5cc9b.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/wht-now-2024-home-1.841bf287.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/world-meditation-day-2024-album-1.f83e6ce2.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/world-meditation-day-2024-cover-1.5854b8f4.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/world-meditation-day-2024-home-1.1204ce7a.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/yog-mahotsav-panvel-2023-album-1.3195a12f.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/yog-mahotsav-panvel-2023-cover-1.baeb3367.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/yog-mahotsav-panvel-2023-home-1.0bb40b8d.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/yog-mahotsav-panvel-2023-moment-1.bdbbc4e9.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/yoga-with-youth-2026-album-1.05ba9b33.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/yoga-with-youth-2026-album-2.a9aa5ae8.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/yoga-with-youth-2026-cover-1.e93bbf81.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/yoga-with-youth-2026-home-1.5e7bf95b.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/yoga-with-youth-2026-home-2.187f3d10.webp",
+      "status": 200
+    },
+    {
+      "asset": "/_next/static/media/yoga-with-youth-2026-moment-1.92f4dcd8.webp",
+      "status": 200
+    }
+  ],
+  "galleryAlbums": 14,
+  "homeAlbumMappings": 13,
+  "eventPhotos": 139,
+  "invalidEventStatus": 404,
+  "meditationRedirect": "/about#how-to-attend"
+}

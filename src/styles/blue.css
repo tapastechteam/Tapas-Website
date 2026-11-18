@@ -1,0 +1,3480 @@
+.blue-source *:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source :not(:where(.tapas-gallery, .tapas-gallery *))::before,.blue-source:not(:where(.tapas-gallery, .tapas-gallery *))::before,.blue-source :not(:where(.tapas-gallery, .tapas-gallery *))::after,.blue-source:not(:where(.tapas-gallery, .tapas-gallery *))::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+.blue-source :not(:where(.tapas-gallery, .tapas-gallery *))::backdrop,.blue-source:not(:where(.tapas-gallery, .tapas-gallery *))::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+  --tw-contain-size:  ;
+  --tw-contain-layout:  ;
+  --tw-contain-paint:  ;
+  --tw-contain-style:  ;
+}
+
+/*
+! tailwindcss v3.4.19 | MIT License | https://tailwindcss.com
+*/
+
+/*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+
+.blue-source *:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source :not(:where(.tapas-gallery, .tapas-gallery *))::before,.blue-source:not(:where(.tapas-gallery, .tapas-gallery *))::before,.blue-source :not(:where(.tapas-gallery, .tapas-gallery *))::after,.blue-source:not(:where(.tapas-gallery, .tapas-gallery *))::after {
+  box-sizing: border-box;
+  /* 1 */
+  border-width: 0;
+  /* 2 */
+  border-style: solid;
+  /* 2 */
+  border-color: #e5e7eb;
+  /* 2 */
+}
+
+.blue-source :not(:where(.tapas-gallery, .tapas-gallery *))::before,.blue-source:not(:where(.tapas-gallery, .tapas-gallery *))::before,.blue-source :not(:where(.tapas-gallery, .tapas-gallery *))::after,.blue-source:not(:where(.tapas-gallery, .tapas-gallery *))::after {
+  --tw-content: '';
+}
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
+7. Disable tap highlights on iOS
+*/
+
+.blue-source:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  line-height: 1.5;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -moz-tab-size: 4;
+  /* 3 */
+  -o-tab-size: 4;
+     tab-size: 4;
+  /* 3 */
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* 4 */
+  font-feature-settings: normal;
+  /* 5 */
+  font-variation-settings: normal;
+  /* 6 */
+  -webkit-tap-highlight-color: transparent;
+  /* 7 */
+}
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+.blue-source:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  margin: 0;
+  /* 1 */
+  line-height: inherit;
+  /* 2 */
+}
+
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
+
+.blue-source hr:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  height: 0;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  border-top-width: 1px;
+  /* 3 */
+}
+
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+.blue-source abbr:where([title]):not(:where(.tapas-gallery, .tapas-gallery *)) {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/*
+Remove the default font size and weight for headings.
+*/
+
+.blue-source h1:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source h2:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source h3:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source h4:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source h5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source h6:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+.blue-source a:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*
+Add the correct font weight in Edge and Safari.
+*/
+
+.blue-source b:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source strong:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-weight: bolder;
+}
+
+/*
+1. Use the user's configured `mono` font-family by default.
+2. Use the user's configured `mono` font-feature-settings by default.
+3. Use the user's configured `mono` font-variation-settings by default.
+4. Correct the odd `em` font sizing in all browsers.
+*/
+
+.blue-source code:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source kbd:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source samp:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source pre:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  /* 1 */
+  font-feature-settings: normal;
+  /* 2 */
+  font-variation-settings: normal;
+  /* 3 */
+  font-size: 1em;
+  /* 4 */
+}
+
+/*
+Add the correct font size in all browsers.
+*/
+
+.blue-source small:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 80%;
+}
+
+/*
+Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/
+
+.blue-source sub:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source sup:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+.blue-source sub:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  bottom: -0.25em;
+}
+
+.blue-source sup:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  top: -0.5em;
+}
+
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
+
+.blue-source table:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  text-indent: 0;
+  /* 1 */
+  border-color: inherit;
+  /* 2 */
+  border-collapse: collapse;
+  /* 3 */
+}
+
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
+
+.blue-source button:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source input:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source optgroup:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source select:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source textarea:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-family: inherit;
+  /* 1 */
+  font-feature-settings: inherit;
+  /* 1 */
+  font-variation-settings: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  font-weight: inherit;
+  /* 1 */
+  line-height: inherit;
+  /* 1 */
+  letter-spacing: inherit;
+  /* 1 */
+  color: inherit;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+  padding: 0;
+  /* 3 */
+}
+
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+
+.blue-source button:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source select:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  text-transform: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+
+.blue-source button:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source input:where([type='button']):not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source input:where([type='reset']):not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source input:where([type='submit']):not(:where(.tapas-gallery, .tapas-gallery *)) {
+  -webkit-appearance: button;
+  /* 1 */
+  background-color: transparent;
+  /* 2 */
+  background-image: none;
+  /* 2 */
+}
+
+/*
+Use the modern Firefox focus style for all focusable elements.
+*/
+
+.blue-source :-moz-focusring:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source:-moz-focusring:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  outline: auto;
+}
+
+/*
+Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+
+.blue-source :-moz-ui-invalid:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source:-moz-ui-invalid:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  box-shadow: none;
+}
+
+/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+.blue-source progress:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  vertical-align: baseline;
+}
+
+/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+.blue-source :not(:where(.tapas-gallery, .tapas-gallery *))::-webkit-inner-spin-button,.blue-source:not(:where(.tapas-gallery, .tapas-gallery *))::-webkit-inner-spin-button,.blue-source :not(:where(.tapas-gallery, .tapas-gallery *))::-webkit-outer-spin-button,.blue-source:not(:where(.tapas-gallery, .tapas-gallery *))::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+.blue-source [type='search']:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/*
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+.blue-source :not(:where(.tapas-gallery, .tapas-gallery *))::-webkit-search-decoration,.blue-source:not(:where(.tapas-gallery, .tapas-gallery *))::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to `inherit` in Safari.
+*/
+
+.blue-source :not(:where(.tapas-gallery, .tapas-gallery *))::-webkit-file-upload-button,.blue-source:not(:where(.tapas-gallery, .tapas-gallery *))::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+.blue-source summary:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  display: list-item;
+}
+
+/*
+Removes the default spacing and border for appropriate elements.
+*/
+
+.blue-source blockquote:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source dl:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source dd:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source h1:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source h2:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source h3:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source h4:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source h5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source h6:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source hr:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source figure:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source p:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source pre:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  margin: 0;
+}
+
+.blue-source fieldset:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  margin: 0;
+  padding: 0;
+}
+
+.blue-source legend:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding: 0;
+}
+
+.blue-source ol:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source ul:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source menu:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Reset default styling for dialogs.
+*/
+
+.blue-source dialog:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding: 0;
+}
+
+/*
+Prevent resizing textareas horizontally by default.
+*/
+
+.blue-source textarea:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  resize: vertical;
+}
+
+/*
+1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+2. Set the default placeholder color to the user's configured gray 400 color.
+*/
+
+.blue-source input:not(:where(.tapas-gallery, .tapas-gallery *))::-moz-placeholder,.blue-source textarea:not(:where(.tapas-gallery, .tapas-gallery *))::-moz-placeholder {
+  opacity: 1;
+  /* 1 */
+  color: #9ca3af;
+  /* 2 */
+}
+
+.blue-source input:not(:where(.tapas-gallery, .tapas-gallery *))::placeholder,.blue-source textarea:not(:where(.tapas-gallery, .tapas-gallery *))::placeholder {
+  opacity: 1;
+  /* 1 */
+  color: #9ca3af;
+  /* 2 */
+}
+
+/*
+Set the default cursor for buttons.
+*/
+
+.blue-source button:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source [role="button"]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  cursor: pointer;
+}
+
+/*
+Make sure disabled buttons don't get the pointer cursor.
+*/
+
+.blue-source :disabled:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source:disabled:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  cursor: default;
+}
+
+/*
+1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+   This can trigger a poorly considered lint error in some tools but is included by design.
+*/
+
+.blue-source img:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source svg:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source video:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source canvas:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source audio:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source iframe:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source embed:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source object:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  display: block;
+  /* 1 */
+  vertical-align: middle;
+  /* 2 */
+}
+
+/*
+Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/
+
+.blue-source img:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source video:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make elements with the HTML hidden attribute stay hidden by default */
+
+.blue-source [hidden]:where(:not([hidden="until-found"])):not(:where(.tapas-gallery, .tapas-gallery *)) {
+  display: none;
+}
+
+.blue-source:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --bg: #eaf6ff;
+  --bg-soft: #f0f8ff;
+  --bg-sky: #e6f4ff;
+  --bg-pastel: #dff1ff;
+  --border: #d6ecff;
+  --text: #1f3a5f;
+  --text-muted: #4a6283;
+  --accent: #0b78c8;
+  --accent-hover: #0961a1;
+  --focus-ring: #0b78c8;
+  --font-heading: 'Lora', 'Georgia', 'Times New Roman', serif;
+  --font-body:
+      'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,
+      sans-serif;
+}
+
+.blue-source:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+.blue-source:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  min-height: 100vh;
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.blue-source h1:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source h2:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source h3:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source h4:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source h5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source h6:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-family: var(--font-heading);
+  color: var(--text);
+  line-height: 1.25;
+  font-weight: 600;
+}
+
+.blue-source p:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  color: var(--text-muted);
+}
+
+.blue-source :focus-visible:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source:focus-visible:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+.blue-source .pointer-events-none:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.pointer-events-none:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  pointer-events: none;
+}
+
+.blue-source .visible:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.visible:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  visibility: visible;
+}
+
+.blue-source .invisible:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.invisible:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  visibility: hidden;
+}
+
+.blue-source .fixed:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.fixed:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  position: fixed;
+}
+
+.blue-source .absolute:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.absolute:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  position: absolute;
+}
+
+.blue-source .relative:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.relative:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  position: relative;
+}
+
+.blue-source .sticky:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sticky:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  position: sticky;
+}
+
+.blue-source .inset-0:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.inset-0:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  inset: 0px;
+}
+
+.blue-source .bottom-0:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.bottom-0:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  bottom: 0px;
+}
+
+.blue-source .bottom-2\.5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.bottom-2\.5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  bottom: 0.625rem;
+}
+
+.blue-source .bottom-3:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.bottom-3:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  bottom: 0.75rem;
+}
+
+.blue-source .left-0:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.left-0:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  left: 0px;
+}
+
+.blue-source .left-1\/2:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.left-1\/2:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  left: 50%;
+}
+
+.blue-source .left-2:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.left-2:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  left: 0.5rem;
+}
+
+.blue-source .left-2\.5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.left-2\.5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  left: 0.625rem;
+}
+
+.blue-source .left-3:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.left-3:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  left: 0.75rem;
+}
+
+.blue-source .left-4:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.left-4:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  left: 1rem;
+}
+
+.blue-source .right-2:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.right-2:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  right: 0.5rem;
+}
+
+.blue-source .right-2\.5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.right-2\.5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  right: 0.625rem;
+}
+
+.blue-source .right-3:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.right-3:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  right: 0.75rem;
+}
+
+.blue-source .right-4:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.right-4:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  right: 1rem;
+}
+
+.blue-source .top-0:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.top-0:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  top: 0px;
+}
+
+.blue-source .top-1\/2:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.top-1\/2:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  top: 50%;
+}
+
+.blue-source .top-3:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.top-3:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  top: 0.75rem;
+}
+
+.blue-source .top-4:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.top-4:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  top: 1rem;
+}
+
+.blue-source .z-10:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.z-10:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  z-index: 10;
+}
+
+.blue-source .z-20:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.z-20:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  z-index: 20;
+}
+
+.blue-source .z-\[1000\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.z-\[1000\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  z-index: 1000;
+}
+
+.blue-source .z-\[100\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.z-\[100\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  z-index: 100;
+}
+
+.blue-source .z-\[200\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.z-\[200\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  z-index: 200;
+}
+
+.blue-source .z-\[9999\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.z-\[9999\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  z-index: 9999;
+}
+
+.blue-source .order-1:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.order-1:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  order: 1;
+}
+
+.blue-source .order-2:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.order-2:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  order: 2;
+}
+
+.blue-source .col-span-2:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.col-span-2:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  grid-column: span 2 / span 2;
+}
+
+.blue-source .row-span-2:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.row-span-2:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  grid-row: span 2 / span 2;
+}
+
+.blue-source .m-0:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.m-0:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  margin: 0px;
+}
+
+.blue-source .-mx-7:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.-mx-7:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  margin-left: -1.75rem;
+  margin-right: -1.75rem;
+}
+
+.blue-source .mx-auto:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.mx-auto:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blue-source .-mb-7:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.-mb-7:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  margin-bottom: -1.75rem;
+}
+
+.blue-source .-mt-2:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.-mt-2:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  margin-top: -0.5rem;
+}
+
+.blue-source .mb-1:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.mb-1:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  margin-bottom: 0.25rem;
+}
+
+.blue-source .mb-10:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.mb-10:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  margin-bottom: 2.5rem;
+}
+
+.blue-source .mb-12:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.mb-12:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  margin-bottom: 3rem;
+}
+
+.blue-source .mb-2:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.mb-2:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  margin-bottom: 0.5rem;
+}
+
+.blue-source .mb-2\.5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.mb-2\.5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  margin-bottom: 0.625rem;
+}
+
+.blue-source .mb-3:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.mb-3:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  margin-bottom: 0.75rem;
+}
+
+.blue-source .mb-4:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.mb-4:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  margin-bottom: 1rem;
+}
+
+.blue-source .mb-5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.mb-5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  margin-bottom: 1.25rem;
+}
+
+.blue-source .mb-6:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.mb-6:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  margin-bottom: 1.5rem;
+}
+
+.blue-source .mb-8:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.mb-8:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  margin-bottom: 2rem;
+}
+
+.blue-source .mb-\[0\.65rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.mb-\[0\.65rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  margin-bottom: 0.65rem;
+}
+
+.blue-source .mb-\[0\.6rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.mb-\[0\.6rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  margin-bottom: 0.6rem;
+}
+
+.blue-source .ml-2:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.ml-2:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  margin-left: 0.5rem;
+}
+
+.blue-source .mr-1:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.mr-1:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  margin-right: 0.25rem;
+}
+
+.blue-source .mr-2:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.mr-2:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  margin-right: 0.5rem;
+}
+
+.blue-source .mt-0\.5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.mt-0\.5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  margin-top: 0.125rem;
+}
+
+.blue-source .mt-1:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.mt-1:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  margin-top: 0.25rem;
+}
+
+.blue-source .mt-1\.5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.mt-1\.5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  margin-top: 0.375rem;
+}
+
+.blue-source .mt-10:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.mt-10:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  margin-top: 2.5rem;
+}
+
+.blue-source .mt-14:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.mt-14:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  margin-top: 3.5rem;
+}
+
+.blue-source .mt-16:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.mt-16:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  margin-top: 4rem;
+}
+
+.blue-source .mt-2:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.mt-2:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  margin-top: 0.5rem;
+}
+
+.blue-source .mt-2\.5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.mt-2\.5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  margin-top: 0.625rem;
+}
+
+.blue-source .mt-3:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.mt-3:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  margin-top: 0.75rem;
+}
+
+.blue-source .mt-4:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.mt-4:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  margin-top: 1rem;
+}
+
+.blue-source .mt-5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.mt-5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  margin-top: 1.25rem;
+}
+
+.blue-source .mt-6:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.mt-6:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  margin-top: 1.5rem;
+}
+
+.blue-source .mt-7:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.mt-7:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  margin-top: 1.75rem;
+}
+
+.blue-source .mt-\[2px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.mt-\[2px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  margin-top: 2px;
+}
+
+.blue-source .mt-auto:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.mt-auto:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  margin-top: auto;
+}
+
+.blue-source .line-clamp-2:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.line-clamp-2:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.blue-source .line-clamp-3:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.line-clamp-3:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.blue-source .block:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.block:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  display: block;
+}
+
+.blue-source .inline-block:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.inline-block:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  display: inline-block;
+}
+
+.blue-source .flex:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.flex:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  display: flex;
+}
+
+.blue-source .inline-flex:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.inline-flex:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  display: inline-flex;
+}
+
+.blue-source .grid:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.grid:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  display: grid;
+}
+
+.blue-source .hidden:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.hidden:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  display: none;
+}
+
+.blue-source .aspect-\[16\/10\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.aspect-\[16\/10\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  aspect-ratio: 16/10;
+}
+
+.blue-source .aspect-\[16\/11\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.aspect-\[16\/11\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  aspect-ratio: 16/11;
+}
+
+.blue-source .aspect-\[4\/3\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.aspect-\[4\/3\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  aspect-ratio: 4/3;
+}
+
+.blue-source .aspect-\[520\/280\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.aspect-\[520\/280\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  aspect-ratio: 520/280;
+}
+
+.blue-source .aspect-video:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.aspect-video:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  aspect-ratio: 16 / 9;
+}
+
+.blue-source .h-1\.5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.h-1\.5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  height: 0.375rem;
+}
+
+.blue-source .h-10:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.h-10:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  height: 2.5rem;
+}
+
+.blue-source .h-11:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.h-11:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  height: 2.75rem;
+}
+
+.blue-source .h-2:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.h-2:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  height: 0.5rem;
+}
+
+.blue-source .h-3\.5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.h-3\.5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  height: 0.875rem;
+}
+
+.blue-source .h-4:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.h-4:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  height: 1rem;
+}
+
+.blue-source .h-5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.h-5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  height: 1.25rem;
+}
+
+.blue-source .h-7:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.h-7:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  height: 1.75rem;
+}
+
+.blue-source .h-9:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.h-9:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  height: 2.25rem;
+}
+
+.blue-source .h-\[140px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.h-\[140px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  height: 140px;
+}
+
+.blue-source .h-\[150px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.h-\[150px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  height: 150px;
+}
+
+.blue-source .h-\[2\.4rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.h-\[2\.4rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  height: 2.4rem;
+}
+
+.blue-source .h-\[225px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.h-\[225px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  height: 225px;
+}
+
+.blue-source .h-\[2px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.h-\[2px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  height: 2px;
+}
+
+.blue-source .h-\[3rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.h-\[3rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  height: 3rem;
+}
+
+.blue-source .h-\[4\.25rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.h-\[4\.25rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  height: 4.25rem;
+}
+
+.blue-source .h-\[min\(75vh\2c 800px\)\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.h-\[min\(75vh\2c 800px\)\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  height: min(75vh, 800px);
+}
+
+.blue-source .h-full:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.h-full:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  height: 100%;
+}
+
+.blue-source .max-h-\[280px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.max-h-\[280px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  max-height: 280px;
+}
+
+.blue-source .max-h-\[42vh\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.max-h-\[42vh\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  max-height: 42vh;
+}
+
+.blue-source .max-h-\[90vh\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.max-h-\[90vh\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  max-height: 90vh;
+}
+
+.blue-source .min-h-11:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.min-h-11:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  min-height: 2.75rem;
+}
+
+.blue-source .min-h-\[220px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.min-h-\[220px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  min-height: 220px;
+}
+
+.blue-source .min-h-\[40px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.min-h-\[40px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  min-height: 40px;
+}
+
+.blue-source .min-h-\[44px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.min-h-\[44px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  min-height: 44px;
+}
+
+.blue-source .min-h-screen:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.min-h-screen:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  min-height: 100vh;
+}
+
+.blue-source .w-1\.5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.w-1\.5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  width: 0.375rem;
+}
+
+.blue-source .w-10:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.w-10:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  width: 2.5rem;
+}
+
+.blue-source .w-11:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.w-11:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  width: 2.75rem;
+}
+
+.blue-source .w-2:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.w-2:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  width: 0.5rem;
+}
+
+.blue-source .w-3\.5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.w-3\.5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  width: 0.875rem;
+}
+
+.blue-source .w-4:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.w-4:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  width: 1rem;
+}
+
+.blue-source .w-5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.w-5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  width: 1.25rem;
+}
+
+.blue-source .w-6:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.w-6:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  width: 1.5rem;
+}
+
+.blue-source .w-7:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.w-7:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  width: 1.75rem;
+}
+
+.blue-source .w-9:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.w-9:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  width: 2.25rem;
+}
+
+.blue-source .w-\[120px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.w-\[120px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  width: 120px;
+}
+
+.blue-source .w-\[150px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.w-\[150px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  width: 150px;
+}
+
+.blue-source .w-\[160px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.w-\[160px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  width: 160px;
+}
+
+.blue-source .w-\[6px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.w-\[6px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  width: 6px;
+}
+
+.blue-source .w-\[min\(70vw\2c 340px\)\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.w-\[min\(70vw\2c 340px\)\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  width: min(70vw, 340px);
+}
+
+.blue-source .w-full:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.w-full:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  width: 100%;
+}
+
+.blue-source .min-w-0:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.min-w-0:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  min-width: 0px;
+}
+
+.blue-source .min-w-\[40px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.min-w-\[40px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  min-width: 40px;
+}
+
+.blue-source .max-w-2xl:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.max-w-2xl:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  max-width: 42rem;
+}
+
+.blue-source .max-w-3xl:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.max-w-3xl:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  max-width: 48rem;
+}
+
+.blue-source .max-w-4xl:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.max-w-4xl:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  max-width: 56rem;
+}
+
+.blue-source .max-w-5xl:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.max-w-5xl:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  max-width: 64rem;
+}
+
+.blue-source .max-w-\[1200px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.max-w-\[1200px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  max-width: 1200px;
+}
+
+.blue-source .max-w-\[15rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.max-w-\[15rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  max-width: 15rem;
+}
+
+.blue-source .max-w-\[22rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.max-w-\[22rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  max-width: 22rem;
+}
+
+.blue-source .max-w-\[24rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.max-w-\[24rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  max-width: 24rem;
+}
+
+.blue-source .max-w-\[280px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.max-w-\[280px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  max-width: 280px;
+}
+
+.blue-source .max-w-\[32rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.max-w-\[32rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  max-width: 32rem;
+}
+
+.blue-source .max-w-\[34rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.max-w-\[34rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  max-width: 34rem;
+}
+
+.blue-source .max-w-\[36rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.max-w-\[36rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  max-width: 36rem;
+}
+
+.blue-source .max-w-\[38rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.max-w-\[38rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  max-width: 38rem;
+}
+
+.blue-source .max-w-\[42rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.max-w-\[42rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  max-width: 42rem;
+}
+
+.blue-source .max-w-\[44rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.max-w-\[44rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  max-width: 44rem;
+}
+
+.blue-source .max-w-\[48rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.max-w-\[48rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  max-width: 48rem;
+}
+
+.blue-source .max-w-\[500px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.max-w-\[500px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  max-width: 500px;
+}
+
+.blue-source .max-w-\[800px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.max-w-\[800px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  max-width: 800px;
+}
+
+.blue-source .max-w-\[850px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.max-w-\[850px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  max-width: 850px;
+}
+
+.blue-source .max-w-full:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.max-w-full:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  max-width: 100%;
+}
+
+.blue-source .flex-1:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.flex-1:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  flex: 1 1 0%;
+}
+
+.blue-source .shrink-0:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.shrink-0:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  flex-shrink: 0;
+}
+
+.blue-source .grow:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.grow:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  flex-grow: 1;
+}
+
+.blue-source .-translate-x-1\/2:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.-translate-x-1\/2:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.blue-source .-translate-y-1\/2:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.-translate-y-1\/2:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-translate-y: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.blue-source .-translate-y-\[7px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.-translate-y-\[7px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-translate-y: -7px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.blue-source .translate-y-\[7px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.translate-y-\[7px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-translate-y: 7px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.blue-source .-rotate-45:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.-rotate-45:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-rotate: -45deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.blue-source .rotate-180:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.rotate-180:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-rotate: 180deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.blue-source .rotate-45:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.rotate-45:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-rotate: 45deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+@keyframes tapasFadePulse {
+  0%, 100% {
+    opacity: 0.35;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.blue-source .animate-fade-pulse:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.animate-fade-pulse:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  animation: tapasFadePulse 1.8s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  50% {
+    opacity: .5;
+  }
+}
+
+.blue-source .animate-pulse:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.animate-pulse:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.blue-source .cursor-pointer:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.cursor-pointer:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  cursor: pointer;
+}
+
+.blue-source .select-none:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.select-none:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.blue-source .scroll-mt-24:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.scroll-mt-24:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  scroll-margin-top: 6rem;
+}
+
+.blue-source .list-decimal:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.list-decimal:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  list-style-type: decimal;
+}
+
+.blue-source .list-disc:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.list-disc:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  list-style-type: disc;
+}
+
+.blue-source .list-none:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.list-none:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  list-style-type: none;
+}
+
+.blue-source .grid-cols-1:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.grid-cols-1:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.blue-source .grid-cols-2:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.grid-cols-2:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.blue-source .flex-col:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.flex-col:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  flex-direction: column;
+}
+
+.blue-source .flex-wrap:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.flex-wrap:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  flex-wrap: wrap;
+}
+
+.blue-source .place-items-center:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.place-items-center:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  place-items: center;
+}
+
+.blue-source .items-start:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.items-start:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  align-items: flex-start;
+}
+
+.blue-source .items-center:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.items-center:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  align-items: center;
+}
+
+.blue-source .justify-end:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.justify-end:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  justify-content: flex-end;
+}
+
+.blue-source .justify-center:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.justify-center:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  justify-content: center;
+}
+
+.blue-source .justify-between:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.justify-between:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  justify-content: space-between;
+}
+
+.blue-source .gap-1:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.gap-1:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  gap: 0.25rem;
+}
+
+.blue-source .gap-1\.5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.gap-1\.5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  gap: 0.375rem;
+}
+
+.blue-source .gap-10:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.gap-10:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  gap: 2.5rem;
+}
+
+.blue-source .gap-12:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.gap-12:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  gap: 3rem;
+}
+
+.blue-source .gap-16:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.gap-16:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  gap: 4rem;
+}
+
+.blue-source .gap-2:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.gap-2:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  gap: 0.5rem;
+}
+
+.blue-source .gap-2\.5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.gap-2\.5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  gap: 0.625rem;
+}
+
+.blue-source .gap-20:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.gap-20:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  gap: 5rem;
+}
+
+.blue-source .gap-3:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.gap-3:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  gap: 0.75rem;
+}
+
+.blue-source .gap-3\.5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.gap-3\.5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  gap: 0.875rem;
+}
+
+.blue-source .gap-4:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.gap-4:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  gap: 1rem;
+}
+
+.blue-source .gap-5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.gap-5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  gap: 1.25rem;
+}
+
+.blue-source .gap-6:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.gap-6:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  gap: 1.5rem;
+}
+
+.blue-source .gap-8:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.gap-8:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  gap: 2rem;
+}
+
+.blue-source .gap-\[0\.55rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.gap-\[0\.55rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  gap: 0.55rem;
+}
+
+.blue-source .gap-\[1\.75rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.gap-\[1\.75rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  gap: 1.75rem;
+}
+
+.blue-source .gap-\[5px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.gap-\[5px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  gap: 5px;
+}
+
+.blue-source .space-x-4 > :not([hidden]) ~ :not([hidden]):not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.blue-source .space-y-1\.5 > :not([hidden]) ~ :not([hidden]):not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.375rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.375rem * var(--tw-space-y-reverse));
+}
+
+.blue-source .space-y-2 > :not([hidden]) ~ :not([hidden]):not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
+}
+
+.blue-source .space-y-3 > :not([hidden]) ~ :not([hidden]):not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
+}
+
+.blue-source .space-y-6 > :not([hidden]) ~ :not([hidden]):not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
+}
+
+.blue-source .self-start:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.self-start:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  align-self: flex-start;
+}
+
+.blue-source .overflow-hidden:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.overflow-hidden:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  overflow: hidden;
+}
+
+.blue-source .overflow-y-auto:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.overflow-y-auto:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  overflow-y: auto;
+}
+
+.blue-source .truncate:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.truncate:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.blue-source .whitespace-pre-line:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.whitespace-pre-line:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  white-space: pre-line;
+}
+
+.blue-source .rounded:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.rounded:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  border-radius: 0.25rem;
+}
+
+.blue-source .rounded-\[10px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.rounded-\[10px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  border-radius: 10px;
+}
+
+.blue-source .rounded-\[12px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.rounded-\[12px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  border-radius: 12px;
+}
+
+.blue-source .rounded-\[14px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.rounded-\[14px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  border-radius: 14px;
+}
+
+.blue-source .rounded-\[16px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.rounded-\[16px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  border-radius: 16px;
+}
+
+.blue-source .rounded-\[18px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.rounded-\[18px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  border-radius: 18px;
+}
+
+.blue-source .rounded-\[4px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.rounded-\[4px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  border-radius: 4px;
+}
+
+.blue-source .rounded-\[6px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.rounded-\[6px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  border-radius: 6px;
+}
+
+.blue-source .rounded-\[8px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.rounded-\[8px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  border-radius: 8px;
+}
+
+.blue-source .rounded-full:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.rounded-full:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  border-radius: 9999px;
+}
+
+.blue-source .rounded-r-\[6px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.rounded-r-\[6px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.blue-source .border:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.border:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  border-width: 1px;
+}
+
+.blue-source .border-0:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.border-0:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  border-width: 0px;
+}
+
+.blue-source .border-b:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.border-b:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  border-bottom-width: 1px;
+}
+
+.blue-source .border-b-2:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.border-b-2:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  border-bottom-width: 2px;
+}
+
+.blue-source .border-l-2:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.border-l-2:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  border-left-width: 2px;
+}
+
+.blue-source .border-r:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.border-r:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  border-right-width: 1px;
+}
+
+.blue-source .border-t:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.border-t:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  border-top-width: 1px;
+}
+
+.blue-source .border-emerald-200:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.border-emerald-200:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-border-opacity: 1;
+  border-color: rgb(167 243 208 / var(--tw-border-opacity, 1));
+}
+
+.blue-source .border-indigo-200:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.border-indigo-200:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-border-opacity: 1;
+  border-color: rgb(199 210 254 / var(--tw-border-opacity, 1));
+}
+
+.blue-source .border-sky-200:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.border-sky-200:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-border-opacity: 1;
+  border-color: rgb(186 230 253 / var(--tw-border-opacity, 1));
+}
+
+.blue-source .border-tapas-accent:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.border-tapas-accent:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-border-opacity: 1;
+  border-color: rgb(11 120 200 / var(--tw-border-opacity, 1));
+}
+
+.blue-source .border-tapas-border:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.border-tapas-border:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-border-opacity: 1;
+  border-color: rgb(214 236 255 / var(--tw-border-opacity, 1));
+}
+
+.blue-source .border-tapas-border\/60:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.border-tapas-border\/60:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  border-color: rgb(214 236 255 / 0.6);
+}
+
+.blue-source .border-tapas-border\/70:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.border-tapas-border\/70:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  border-color: rgb(214 236 255 / 0.7);
+}
+
+.blue-source .border-tapas-border\/80:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.border-tapas-border\/80:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  border-color: rgb(214 236 255 / 0.8);
+}
+
+.blue-source .border-white\/15:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.border-white\/15:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  border-color: rgb(255 255 255 / 0.15);
+}
+
+.blue-source .bg-black\/50:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.bg-black\/50:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  background-color: rgb(0 0 0 / 0.5);
+}
+
+.blue-source .bg-black\/60:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.bg-black\/60:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  background-color: rgb(0 0 0 / 0.6);
+}
+
+.blue-source .bg-black\/65:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.bg-black\/65:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  background-color: rgb(0 0 0 / 0.65);
+}
+
+.blue-source .bg-black\/70:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.bg-black\/70:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  background-color: rgb(0 0 0 / 0.7);
+}
+
+.blue-source .bg-black\/80:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.bg-black\/80:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  background-color: rgb(0 0 0 / 0.8);
+}
+
+.blue-source .bg-emerald-50:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.bg-emerald-50:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(236 253 245 / var(--tw-bg-opacity, 1));
+}
+
+.blue-source .bg-indigo-50:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.bg-indigo-50:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(238 242 255 / var(--tw-bg-opacity, 1));
+}
+
+.blue-source .bg-sky-50:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.bg-sky-50:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 249 255 / var(--tw-bg-opacity, 1));
+}
+
+.blue-source .bg-slate-900\/65:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.bg-slate-900\/65:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  background-color: rgb(15 23 42 / 0.65);
+}
+
+.blue-source .bg-slate-900\/75:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.bg-slate-900\/75:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  background-color: rgb(15 23 42 / 0.75);
+}
+
+.blue-source .bg-slate-900\/80:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.bg-slate-900\/80:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  background-color: rgb(15 23 42 / 0.8);
+}
+
+.blue-source .bg-slate-950\/90:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.bg-slate-950\/90:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  background-color: rgb(2 6 23 / 0.9);
+}
+
+.blue-source .bg-tapas-accent:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.bg-tapas-accent:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(11 120 200 / var(--tw-bg-opacity, 1));
+}
+
+.blue-source .bg-tapas-accent\/40:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.bg-tapas-accent\/40:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  background-color: rgb(11 120 200 / 0.4);
+}
+
+.blue-source .bg-tapas-accent\/60:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.bg-tapas-accent\/60:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  background-color: rgb(11 120 200 / 0.6);
+}
+
+.blue-source .bg-tapas-bg:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.bg-tapas-bg:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(234 246 255 / var(--tw-bg-opacity, 1));
+}
+
+.blue-source .bg-tapas-border:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.bg-tapas-border:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(214 236 255 / var(--tw-bg-opacity, 1));
+}
+
+.blue-source .bg-tapas-pastel:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.bg-tapas-pastel:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(223 241 255 / var(--tw-bg-opacity, 1));
+}
+
+.blue-source .bg-tapas-pastel\/50:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.bg-tapas-pastel\/50:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  background-color: rgb(223 241 255 / 0.5);
+}
+
+.blue-source .bg-tapas-pastel\/60:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.bg-tapas-pastel\/60:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  background-color: rgb(223 241 255 / 0.6);
+}
+
+.blue-source .bg-tapas-sky:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.bg-tapas-sky:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(230 244 255 / var(--tw-bg-opacity, 1));
+}
+
+.blue-source .bg-tapas-sky\/40:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.bg-tapas-sky\/40:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  background-color: rgb(230 244 255 / 0.4);
+}
+
+.blue-source .bg-tapas-sky\/70:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.bg-tapas-sky\/70:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  background-color: rgb(230 244 255 / 0.7);
+}
+
+.blue-source .bg-tapas-soft:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.bg-tapas-soft:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 248 255 / var(--tw-bg-opacity, 1));
+}
+
+.blue-source .bg-tapas-text:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.bg-tapas-text:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 58 95 / var(--tw-bg-opacity, 1));
+}
+
+.blue-source .bg-transparent:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.bg-transparent:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  background-color: transparent;
+}
+
+.blue-source .bg-white:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.bg-white:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.blue-source .bg-white\/10:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.bg-white\/10:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  background-color: rgb(255 255 255 / 0.1);
+}
+
+.blue-source .bg-white\/15:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.bg-white\/15:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  background-color: rgb(255 255 255 / 0.15);
+}
+
+.blue-source .bg-white\/20:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.bg-white\/20:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  background-color: rgb(255 255 255 / 0.2);
+}
+
+.blue-source .bg-white\/95:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.bg-white\/95:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  background-color: rgb(255 255 255 / 0.95);
+}
+
+.blue-source .bg-gradient-to-r:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.bg-gradient-to-r:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.blue-source .bg-gradient-to-t:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.bg-gradient-to-t:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  background-image: linear-gradient(to top, var(--tw-gradient-stops));
+}
+
+.blue-source .from-black\/85:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.from-black\/85:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-gradient-from: rgb(0 0 0 / 0.85) var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.blue-source .from-black\/90:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.from-black\/90:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-gradient-from: rgb(0 0 0 / 0.9) var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.blue-source .from-tapas-sky:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.from-tapas-sky:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-gradient-from: #E6F4FF var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(230 244 255 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.blue-source .via-black\/40:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.via-black\/40:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-gradient-to: rgb(0 0 0 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), rgb(0 0 0 / 0.4) var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
+.blue-source .via-black\/45:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.via-black\/45:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-gradient-to: rgb(0 0 0 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), rgb(0 0 0 / 0.45) var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
+.blue-source .via-tapas-soft:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.via-tapas-soft:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-gradient-to: rgb(240 248 255 / 0)  var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), #F0F8FF var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+
+.blue-source .to-tapas-pastel:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.to-tapas-pastel:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-gradient-to: #DFF1FF var(--tw-gradient-to-position);
+}
+
+.blue-source .to-transparent:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.to-transparent:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-gradient-to: transparent var(--tw-gradient-to-position);
+}
+
+.blue-source .object-contain:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.object-contain:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.blue-source .object-cover:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.object-cover:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.blue-source .object-left:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.object-left:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  -o-object-position: left;
+     object-position: left;
+}
+
+.blue-source .object-top:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.object-top:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  -o-object-position: top;
+     object-position: top;
+}
+
+.blue-source .p-0:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.p-0:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding: 0px;
+}
+
+.blue-source .p-2:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.p-2:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding: 0.5rem;
+}
+
+.blue-source .p-3:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.p-3:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding: 0.75rem;
+}
+
+.blue-source .p-4:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.p-4:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding: 1rem;
+}
+
+.blue-source .p-5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.p-5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding: 1.25rem;
+}
+
+.blue-source .p-6:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.p-6:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding: 1.5rem;
+}
+
+.blue-source .p-7:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.p-7:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding: 1.75rem;
+}
+
+.blue-source .p-8:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.p-8:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding: 2rem;
+}
+
+.blue-source .px-1:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.px-1:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.blue-source .px-2:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.px-2:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.blue-source .px-2\.5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.px-2\.5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+}
+
+.blue-source .px-3:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.px-3:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.blue-source .px-3\.5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.px-3\.5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-left: 0.875rem;
+  padding-right: 0.875rem;
+}
+
+.blue-source .px-4:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.px-4:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.blue-source .px-5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.px-5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.blue-source .px-6:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.px-6:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.blue-source .px-7:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.px-7:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.blue-source .px-8:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.px-8:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.blue-source .py-0\.5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.py-0\.5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+}
+
+.blue-source .py-1:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.py-1:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.blue-source .py-1\.5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.py-1\.5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+}
+
+.blue-source .py-10:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.py-10:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.blue-source .py-2:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.py-2:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.blue-source .py-2\.5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.py-2\.5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+}
+
+.blue-source .py-3:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.py-3:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.blue-source .py-4:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.py-4:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.blue-source .py-8:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.py-8:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.blue-source .py-\[0\.65rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.py-\[0\.65rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-top: 0.65rem;
+  padding-bottom: 0.65rem;
+}
+
+.blue-source .py-\[0\.6rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.py-\[0\.6rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+
+.blue-source .py-\[0\.85rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.py-\[0\.85rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-top: 0.85rem;
+  padding-bottom: 0.85rem;
+}
+
+.blue-source .pb-1:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.pb-1:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-bottom: 0.25rem;
+}
+
+.blue-source .pb-12:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.pb-12:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-bottom: 3rem;
+}
+
+.blue-source .pb-16:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.pb-16:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-bottom: 4rem;
+}
+
+.blue-source .pb-2:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.pb-2:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-bottom: 0.5rem;
+}
+
+.blue-source .pb-24:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.pb-24:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-bottom: 6rem;
+}
+
+.blue-source .pb-3:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.pb-3:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-bottom: 0.75rem;
+}
+
+.blue-source .pb-4:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.pb-4:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-bottom: 1rem;
+}
+
+.blue-source .pb-5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.pb-5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-bottom: 1.25rem;
+}
+
+.blue-source .pb-6:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.pb-6:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-bottom: 1.5rem;
+}
+
+.blue-source .pb-8:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.pb-8:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-bottom: 2rem;
+}
+
+.blue-source .pl-2:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.pl-2:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-left: 0.5rem;
+}
+
+.blue-source .pl-3\.5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.pl-3\.5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-left: 0.875rem;
+}
+
+.blue-source .pl-5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.pl-5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-left: 1.25rem;
+}
+
+.blue-source .pr-1:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.pr-1:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-right: 0.25rem;
+}
+
+.blue-source .pr-2:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.pr-2:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-right: 0.5rem;
+}
+
+.blue-source .pt-0\.5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.pt-0\.5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-top: 0.125rem;
+}
+
+.blue-source .pt-1:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.pt-1:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-top: 0.25rem;
+}
+
+.blue-source .pt-10:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.pt-10:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-top: 2.5rem;
+}
+
+.blue-source .pt-14:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.pt-14:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-top: 3.5rem;
+}
+
+.blue-source .pt-2:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.pt-2:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-top: 0.5rem;
+}
+
+.blue-source .pt-3:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.pt-3:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-top: 0.75rem;
+}
+
+.blue-source .pt-3\.5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.pt-3\.5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-top: 0.875rem;
+}
+
+.blue-source .pt-4:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.pt-4:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-top: 1rem;
+}
+
+.blue-source .pt-5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.pt-5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-top: 1.25rem;
+}
+
+.blue-source .pt-6:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.pt-6:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-top: 1.5rem;
+}
+
+.blue-source .pt-8:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.pt-8:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  padding-top: 2rem;
+}
+
+.blue-source .text-left:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-left:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  text-align: left;
+}
+
+.blue-source .text-center:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-center:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  text-align: center;
+}
+
+.blue-source .font-body:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.font-body:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-family: var(--font-body), Plus Jakarta Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;
+}
+
+.blue-source .font-heading:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.font-heading:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-family: var(--font-heading), Lora, Georgia, Times New Roman, serif;
+}
+
+.blue-source .font-mono:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.font-mono:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.blue-source .text-2xl:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-2xl:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.blue-source .text-3xl:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-3xl:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.blue-source .text-4xl:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-4xl:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.blue-source .text-\[0\.72rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[0\.72rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 0.72rem;
+}
+
+.blue-source .text-\[0\.74rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[0\.74rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 0.74rem;
+}
+
+.blue-source .text-\[0\.75rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[0\.75rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 0.75rem;
+}
+
+.blue-source .text-\[0\.76rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[0\.76rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 0.76rem;
+}
+
+.blue-source .text-\[0\.78rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[0\.78rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 0.78rem;
+}
+
+.blue-source .text-\[0\.7rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[0\.7rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 0.7rem;
+}
+
+.blue-source .text-\[0\.82rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[0\.82rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 0.82rem;
+}
+
+.blue-source .text-\[0\.84rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[0\.84rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 0.84rem;
+}
+
+.blue-source .text-\[0\.85rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[0\.85rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 0.85rem;
+}
+
+.blue-source .text-\[0\.88rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[0\.88rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 0.88rem;
+}
+
+.blue-source .text-\[0\.8rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[0\.8rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 0.8rem;
+}
+
+.blue-source .text-\[0\.91rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[0\.91rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 0.91rem;
+}
+
+.blue-source .text-\[0\.92rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[0\.92rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 0.92rem;
+}
+
+.blue-source .text-\[0\.93rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[0\.93rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 0.93rem;
+}
+
+.blue-source .text-\[0\.95rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[0\.95rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 0.95rem;
+}
+
+.blue-source .text-\[0\.96rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[0\.96rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 0.96rem;
+}
+
+.blue-source .text-\[0\.98rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[0\.98rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 0.98rem;
+}
+
+.blue-source .text-\[0\.9rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[0\.9rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 0.9rem;
+}
+
+.blue-source .text-\[1\.02rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[1\.02rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 1.02rem;
+}
+
+.blue-source .text-\[1\.03rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[1\.03rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 1.03rem;
+}
+
+.blue-source .text-\[1\.05rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[1\.05rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 1.05rem;
+}
+
+.blue-source .text-\[1\.08rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[1\.08rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 1.08rem;
+}
+
+.blue-source .text-\[1\.12rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[1\.12rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 1.12rem;
+}
+
+.blue-source .text-\[1\.15rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[1\.15rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 1.15rem;
+}
+
+.blue-source .text-\[1\.1rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[1\.1rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 1.1rem;
+}
+
+.blue-source .text-\[1\.22rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[1\.22rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 1.22rem;
+}
+
+.blue-source .text-\[1\.28rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[1\.28rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 1.28rem;
+}
+
+.blue-source .text-\[1\.2rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[1\.2rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 1.2rem;
+}
+
+.blue-source .text-\[1\.35rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[1\.35rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 1.35rem;
+}
+
+.blue-source .text-\[1rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[1rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 1rem;
+}
+
+.blue-source .text-\[clamp\(0\.95rem\2c 1\.5vw\2c 1\.08rem\)\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[clamp\(0\.95rem\2c 1\.5vw\2c 1\.08rem\)\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: clamp(0.95rem, 1.5vw, 1.08rem);
+}
+
+.blue-source .text-\[clamp\(0\.98rem\2c 2vw\2c 1\.18rem\)\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[clamp\(0\.98rem\2c 2vw\2c 1\.18rem\)\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: clamp(0.98rem, 2vw, 1.18rem);
+}
+
+.blue-source .text-\[clamp\(1\.05rem\2c 1\.8vw\2c 1\.2rem\)\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[clamp\(1\.05rem\2c 1\.8vw\2c 1\.2rem\)\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: clamp(1.05rem, 1.8vw, 1.2rem);
+}
+
+.blue-source .text-\[clamp\(1\.05rem\2c 2vw\2c 1\.18rem\)\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[clamp\(1\.05rem\2c 2vw\2c 1\.18rem\)\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: clamp(1.05rem, 2vw, 1.18rem);
+}
+
+.blue-source .text-\[clamp\(1\.6rem\2c 3\.5vw\2c 2\.2rem\)\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[clamp\(1\.6rem\2c 3\.5vw\2c 2\.2rem\)\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: clamp(1.6rem, 3.5vw, 2.2rem);
+}
+
+.blue-source .text-\[clamp\(1\.75rem\2c 3\.2vw\2c 2\.3rem\)\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[clamp\(1\.75rem\2c 3\.2vw\2c 2\.3rem\)\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: clamp(1.75rem, 3.2vw, 2.3rem);
+}
+
+.blue-source .text-\[clamp\(1\.75rem\2c 3\.5vw\2c 2\.5rem\)\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[clamp\(1\.75rem\2c 3\.5vw\2c 2\.5rem\)\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+}
+
+.blue-source .text-\[clamp\(2\.1rem\2c 4\.5vw\2c 3\.35rem\)\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[clamp\(2\.1rem\2c 4\.5vw\2c 3\.35rem\)\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: clamp(2.1rem, 4.5vw, 3.35rem);
+}
+
+.blue-source .text-\[clamp\(2\.4rem\2c 5vw\2c 3\.5rem\)\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[clamp\(2\.4rem\2c 5vw\2c 3\.5rem\)\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: clamp(2.4rem, 5vw, 3.5rem);
+}
+
+.blue-source .text-\[clamp\(2\.4rem\2c 6vw\2c 4rem\)\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[clamp\(2\.4rem\2c 6vw\2c 4rem\)\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: clamp(2.4rem, 6vw, 4rem);
+}
+
+.blue-source .text-\[clamp\(2rem\2c 3\.5vw\2c 2\.75rem\)\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[clamp\(2rem\2c 3\.5vw\2c 2\.75rem\)\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: clamp(2rem, 3.5vw, 2.75rem);
+}
+
+.blue-source .text-\[clamp\(2rem\2c 4vw\2c 3rem\)\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-\[clamp\(2rem\2c 4vw\2c 3rem\)\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.blue-source .text-base:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-base:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.blue-source .text-lg:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-lg:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.blue-source .text-sm:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-sm:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.blue-source .text-xl:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-xl:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.blue-source .text-xs:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-xs:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.blue-source .font-bold:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.font-bold:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-weight: 700;
+}
+
+.blue-source .font-extrabold:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.font-extrabold:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-weight: 800;
+}
+
+.blue-source .font-medium:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.font-medium:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-weight: 500;
+}
+
+.blue-source .font-normal:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.font-normal:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-weight: 400;
+}
+
+.blue-source .font-semibold:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.font-semibold:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-weight: 600;
+}
+
+.blue-source .uppercase:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.uppercase:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  text-transform: uppercase;
+}
+
+.blue-source .italic:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.italic:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  font-style: italic;
+}
+
+.blue-source .leading-8:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.leading-8:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  line-height: 2rem;
+}
+
+.blue-source .leading-\[1\.12\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.leading-\[1\.12\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  line-height: 1.12;
+}
+
+.blue-source .leading-\[1\.15\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.leading-\[1\.15\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  line-height: 1.15;
+}
+
+.blue-source .leading-\[1\.18\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.leading-\[1\.18\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  line-height: 1.18;
+}
+
+.blue-source .leading-\[1\.1\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.leading-\[1\.1\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  line-height: 1.1;
+}
+
+.blue-source .leading-\[1\.2\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.leading-\[1\.2\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  line-height: 1.2;
+}
+
+.blue-source .leading-\[1\.3\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.leading-\[1\.3\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  line-height: 1.3;
+}
+
+.blue-source .leading-\[1\.45\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.leading-\[1\.45\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  line-height: 1.45;
+}
+
+.blue-source .leading-\[1\.5\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.leading-\[1\.5\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  line-height: 1.5;
+}
+
+.blue-source .leading-\[1\.65\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.leading-\[1\.65\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  line-height: 1.65;
+}
+
+.blue-source .leading-\[1\.68\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.leading-\[1\.68\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  line-height: 1.68;
+}
+
+.blue-source .leading-\[1\.6\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.leading-\[1\.6\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  line-height: 1.6;
+}
+
+.blue-source .leading-\[1\.72\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.leading-\[1\.72\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  line-height: 1.72;
+}
+
+.blue-source .leading-\[1\.7\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.leading-\[1\.7\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  line-height: 1.7;
+}
+
+.blue-source .leading-none:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.leading-none:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  line-height: 1;
+}
+
+.blue-source .leading-relaxed:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.leading-relaxed:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  line-height: 1.625;
+}
+
+.blue-source .leading-snug:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.leading-snug:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  line-height: 1.375;
+}
+
+.blue-source .leading-tight:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.leading-tight:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  line-height: 1.25;
+}
+
+.blue-source .tracking-\[0\.12em\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.tracking-\[0\.12em\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  letter-spacing: 0.12em;
+}
+
+.blue-source .tracking-\[0\.14em\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.tracking-\[0\.14em\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  letter-spacing: 0.14em;
+}
+
+.blue-source .tracking-\[0\.1em\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.tracking-\[0\.1em\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  letter-spacing: 0.1em;
+}
+
+.blue-source .tracking-tight:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.tracking-tight:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  letter-spacing: -0.025em;
+}
+
+.blue-source .tracking-wide:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.tracking-wide:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  letter-spacing: 0.025em;
+}
+
+.blue-source .tracking-wider:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.tracking-wider:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  letter-spacing: 0.05em;
+}
+
+.blue-source .tracking-widest:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.tracking-widest:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  letter-spacing: 0.1em;
+}
+
+.blue-source .text-emerald-700:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-emerald-700:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-text-opacity: 1;
+  color: rgb(4 120 87 / var(--tw-text-opacity, 1));
+}
+
+.blue-source .text-indigo-700:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-indigo-700:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-text-opacity: 1;
+  color: rgb(67 56 202 / var(--tw-text-opacity, 1));
+}
+
+.blue-source .text-red-500:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-red-500:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity, 1));
+}
+
+.blue-source .text-red-600:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-red-600:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity, 1));
+}
+
+.blue-source .text-tapas-accent:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-tapas-accent:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-text-opacity: 1;
+  color: rgb(11 120 200 / var(--tw-text-opacity, 1));
+}
+
+.blue-source .text-tapas-accent\/20:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-tapas-accent\/20:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  color: rgb(11 120 200 / 0.2);
+}
+
+.blue-source .text-tapas-muted:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-tapas-muted:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-text-opacity: 1;
+  color: rgb(74 98 131 / var(--tw-text-opacity, 1));
+}
+
+.blue-source .text-tapas-text:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-tapas-text:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-text-opacity: 1;
+  color: rgb(31 58 95 / var(--tw-text-opacity, 1));
+}
+
+.blue-source .text-white:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-white:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.blue-source .text-white\/80:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-white\/80:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  color: rgb(255 255 255 / 0.8);
+}
+
+.blue-source .text-white\/90:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.text-white\/90:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  color: rgb(255 255 255 / 0.9);
+}
+
+.blue-source .underline:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.underline:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  text-decoration-line: underline;
+}
+
+.blue-source .decoration-tapas-border:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.decoration-tapas-border:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  text-decoration-color: #D6ECFF;
+}
+
+.blue-source .decoration-wavy:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.decoration-wavy:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  text-decoration-style: wavy;
+}
+
+.blue-source .decoration-2:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.decoration-2:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  text-decoration-thickness: 2px;
+}
+
+.blue-source .underline-offset-4:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.underline-offset-4:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  text-underline-offset: 4px;
+}
+
+.blue-source .underline-offset-\[6px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.underline-offset-\[6px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  text-underline-offset: 6px;
+}
+
+.blue-source .antialiased:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.antialiased:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.blue-source .opacity-0:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.opacity-0:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  opacity: 0;
+}
+
+.blue-source .opacity-100:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.opacity-100:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  opacity: 1;
+}
+
+.blue-source .opacity-60:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.opacity-60:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  opacity: 0.6;
+}
+
+.blue-source .opacity-75:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.opacity-75:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  opacity: 0.75;
+}
+
+.blue-source .shadow:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.shadow:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.blue-source .shadow-2xl:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.shadow-2xl:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.blue-source .shadow-\[0_2px_12px_rgba\(11\2c 120\2c 200\2c 0\.04\)\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.shadow-\[0_2px_12px_rgba\(11\2c 120\2c 200\2c 0\.04\)\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-shadow: 0 2px 12px rgba(11,120,200,0.04);
+  --tw-shadow-colored: 0 2px 12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.blue-source .shadow-\[0_2px_12px_rgba\(11\2c 120\2c 200\2c 0\.06\)\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.shadow-\[0_2px_12px_rgba\(11\2c 120\2c 200\2c 0\.06\)\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-shadow: 0 2px 12px rgba(11,120,200,0.06);
+  --tw-shadow-colored: 0 2px 12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.blue-source .shadow-\[0_4px_20px_rgba\(11\2c 120\2c 200\2c 0\.06\)\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.shadow-\[0_4px_20px_rgba\(11\2c 120\2c 200\2c 0\.06\)\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-shadow: 0 4px 20px rgba(11,120,200,0.06);
+  --tw-shadow-colored: 0 4px 20px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.blue-source .shadow-inner:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.shadow-inner:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-shadow: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
+  --tw-shadow-colored: inset 0 2px 4px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.blue-source .shadow-lg:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.shadow-lg:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.blue-source .shadow-md:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.shadow-md:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.blue-source .shadow-sm:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.shadow-sm:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.blue-source .filter:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.filter:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.blue-source .backdrop-blur-md:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.backdrop-blur-md:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-backdrop-blur: blur(12px);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+
+.blue-source .backdrop-blur-sm:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.backdrop-blur-sm:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-backdrop-blur: blur(4px);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+}
+
+.blue-source .transition:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.transition:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.blue-source .transition-all:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.transition-all:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.blue-source .transition-colors:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.transition-colors:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.blue-source .transition-opacity:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.transition-opacity:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.blue-source .transition-shadow:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.transition-shadow:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  transition-property: box-shadow;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.blue-source .transition-transform:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.transition-transform:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.blue-source .duration-150:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.duration-150:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  transition-duration: 150ms;
+}
+
+.blue-source .duration-200:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.duration-200:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  transition-duration: 200ms;
+}
+
+.blue-source .duration-300:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.duration-300:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  transition-duration: 300ms;
+}
+
+.blue-source .duration-700:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.duration-700:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  transition-duration: 700ms;
+}
+
+.blue-source .duration-\[400ms\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.duration-\[400ms\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  transition-duration: 400ms;
+}
+
+.blue-source .ease-in-out:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.ease-in-out:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.blue-source .ease-out:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.ease-out:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+}
+
+.blue-source .events-theme:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.events-theme:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --accent:#0b78c8;
+  --accent-strong:#0961a1;
+  --accent-tint:#e6f4ff;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .blue-source:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    scroll-behavior: auto;
+  }
+
+  .blue-source *:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source *:not(:where(.tapas-gallery, .tapas-gallery *))::before,.blue-source *:not(:where(.tapas-gallery, .tapas-gallery *))::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.blue-source .marker\:text-tapas-accent *:not(:where(.tapas-gallery, .tapas-gallery *))::marker {
+  color: rgb(11 120 200 );
+}
+
+.blue-source .marker\:text-tapas-accent:not(:where(.tapas-gallery, .tapas-gallery *))::marker,.blue-source.marker\:text-tapas-accent:not(:where(.tapas-gallery, .tapas-gallery *))::marker {
+  color: rgb(11 120 200 );
+}
+
+.blue-source .hover\:-translate-y-1:hover:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.hover\:-translate-y-1:hover:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-translate-y: -0.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.blue-source .hover\:-translate-y-\[3px\]:hover:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.hover\:-translate-y-\[3px\]:hover:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-translate-y: -3px;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.blue-source .hover\:scale-105:hover:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.hover\:scale-105:hover:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-scale-x: 1.05;
+  --tw-scale-y: 1.05;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.blue-source .hover\:scale-\[1\.04\]:hover:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.hover\:scale-\[1\.04\]:hover:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-scale-x: 1.04;
+  --tw-scale-y: 1.04;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.blue-source .hover\:border-tapas-accent:hover:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.hover\:border-tapas-accent:hover:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-border-opacity: 1;
+  border-color: rgb(11 120 200 / var(--tw-border-opacity, 1));
+}
+
+.blue-source .hover\:border-tapas-accent\/40:hover:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.hover\:border-tapas-accent\/40:hover:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  border-color: rgb(11 120 200 / 0.4);
+}
+
+.blue-source .hover\:border-white\/30:hover:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.hover\:border-white\/30:hover:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  border-color: rgb(255 255 255 / 0.3);
+}
+
+.blue-source .hover\:bg-black\/75:hover:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.hover\:bg-black\/75:hover:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  background-color: rgb(0 0 0 / 0.75);
+}
+
+.blue-source .hover\:bg-black\/85:hover:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.hover\:bg-black\/85:hover:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  background-color: rgb(0 0 0 / 0.85);
+}
+
+.blue-source .hover\:bg-black\/90:hover:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.hover\:bg-black\/90:hover:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  background-color: rgb(0 0 0 / 0.9);
+}
+
+.blue-source .hover\:bg-tapas-accent:hover:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.hover\:bg-tapas-accent:hover:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(11 120 200 / var(--tw-bg-opacity, 1));
+}
+
+.blue-source .hover\:bg-tapas-accent-hover:hover:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.hover\:bg-tapas-accent-hover:hover:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(9 97 161 / var(--tw-bg-opacity, 1));
+}
+
+.blue-source .hover\:bg-tapas-accent\/40:hover:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.hover\:bg-tapas-accent\/40:hover:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  background-color: rgb(11 120 200 / 0.4);
+}
+
+.blue-source .hover\:bg-tapas-accent\/90:hover:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.hover\:bg-tapas-accent\/90:hover:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  background-color: rgb(11 120 200 / 0.9);
+}
+
+.blue-source .hover\:bg-tapas-muted:hover:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.hover\:bg-tapas-muted:hover:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(74 98 131 / var(--tw-bg-opacity, 1));
+}
+
+.blue-source .hover\:bg-tapas-pastel:hover:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.hover\:bg-tapas-pastel:hover:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(223 241 255 / var(--tw-bg-opacity, 1));
+}
+
+.blue-source .hover\:bg-tapas-pastel\/40:hover:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.hover\:bg-tapas-pastel\/40:hover:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  background-color: rgb(223 241 255 / 0.4);
+}
+
+.blue-source .hover\:bg-tapas-pastel\/70:hover:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.hover\:bg-tapas-pastel\/70:hover:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  background-color: rgb(223 241 255 / 0.7);
+}
+
+.blue-source .hover\:bg-tapas-sky:hover:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.hover\:bg-tapas-sky:hover:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(230 244 255 / var(--tw-bg-opacity, 1));
+}
+
+.blue-source .hover\:bg-tapas-soft\/80:hover:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.hover\:bg-tapas-soft\/80:hover:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  background-color: rgb(240 248 255 / 0.8);
+}
+
+.blue-source .hover\:bg-white\/20:hover:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.hover\:bg-white\/20:hover:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  background-color: rgb(255 255 255 / 0.2);
+}
+
+.blue-source .hover\:bg-white\/25:hover:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.hover\:bg-white\/25:hover:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  background-color: rgb(255 255 255 / 0.25);
+}
+
+.blue-source .hover\:text-tapas-accent:hover:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.hover\:text-tapas-accent:hover:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-text-opacity: 1;
+  color: rgb(11 120 200 / var(--tw-text-opacity, 1));
+}
+
+.blue-source .hover\:text-tapas-accent-hover:hover:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.hover\:text-tapas-accent-hover:hover:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-text-opacity: 1;
+  color: rgb(9 97 161 / var(--tw-text-opacity, 1));
+}
+
+.blue-source .hover\:text-tapas-text:hover:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.hover\:text-tapas-text:hover:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-text-opacity: 1;
+  color: rgb(31 58 95 / var(--tw-text-opacity, 1));
+}
+
+.blue-source .hover\:text-white:hover:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.hover\:text-white:hover:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.blue-source .hover\:underline:hover:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.hover\:underline:hover:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  text-decoration-line: underline;
+}
+
+.blue-source .hover\:shadow-\[0_10px_24px_rgba\(11\2c 120\2c 200\2c 0\.14\)\]:hover:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.hover\:shadow-\[0_10px_24px_rgba\(11\2c 120\2c 200\2c 0\.14\)\]:hover:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-shadow: 0 10px 24px rgba(11,120,200,0.14);
+  --tw-shadow-colored: 0 10px 24px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.blue-source .hover\:shadow-\[0_6px_24px_rgba\(11\2c 120\2c 200\2c 0\.09\)\]:hover:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.hover\:shadow-\[0_6px_24px_rgba\(11\2c 120\2c 200\2c 0\.09\)\]:hover:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-shadow: 0 6px 24px rgba(11,120,200,0.09);
+  --tw-shadow-colored: 0 6px 24px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.blue-source .hover\:shadow-\[0_8px_20px_rgba\(11\2c 120\2c 200\2c 0\.07\)\]:hover:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.hover\:shadow-\[0_8px_20px_rgba\(11\2c 120\2c 200\2c 0\.07\)\]:hover:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-shadow: 0 8px 20px rgba(11,120,200,0.07);
+  --tw-shadow-colored: 0 8px 20px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.blue-source .hover\:shadow-md:hover:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.hover\:shadow-md:hover:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.blue-source .focus\:border-tapas-accent:focus:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.focus\:border-tapas-accent:focus:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-border-opacity: 1;
+  border-color: rgb(11 120 200 / var(--tw-border-opacity, 1));
+}
+
+.blue-source .focus\:outline-none:focus:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.focus\:outline-none:focus:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.blue-source .focus\:ring-1:focus:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.focus\:ring-1:focus:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
+.blue-source .focus\:ring-2:focus:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.focus\:ring-2:focus:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
+.blue-source .focus\:ring-tapas-accent:focus:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.focus\:ring-tapas-accent:focus:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(11 120 200 / var(--tw-ring-opacity, 1));
+}
+
+.blue-source .focus-visible\:outline-none:focus-visible:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.focus-visible\:outline-none:focus-visible:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.blue-source .focus-visible\:outline:focus-visible:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.focus-visible\:outline:focus-visible:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  outline-style: solid;
+}
+
+.blue-source .focus-visible\:outline-2:focus-visible:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.focus-visible\:outline-2:focus-visible:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  outline-width: 2px;
+}
+
+.blue-source .focus-visible\:outline-tapas-accent:focus-visible:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.focus-visible\:outline-tapas-accent:focus-visible:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  outline-color: #0B78C8;
+}
+
+.blue-source .focus-visible\:ring-2:focus-visible:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.focus-visible\:ring-2:focus-visible:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
+.blue-source .focus-visible\:ring-tapas-accent:focus-visible:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.focus-visible\:ring-tapas-accent:focus-visible:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(11 120 200 / var(--tw-ring-opacity, 1));
+}
+
+.blue-source .active\:scale-95:active:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.active\:scale-95:active:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-scale-x: .95;
+  --tw-scale-y: .95;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.blue-source .group\/link:hover .group-hover\/link\:translate-x-1:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-translate-x: 0.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.blue-source .group:hover .group-hover\:-translate-x-0\.5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-translate-x: -0.125rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.blue-source .group:hover .group-hover\:-translate-y-0\.5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-translate-y: -0.125rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.blue-source .group:hover .group-hover\:translate-x-0\.5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-translate-x: 0.125rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.blue-source .group:hover .group-hover\:translate-x-1:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-translate-x: 0.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.blue-source .group:hover .group-hover\:rotate-90:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-rotate: 90deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.blue-source .group:hover .group-hover\:scale-105:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-scale-x: 1.05;
+  --tw-scale-y: 1.05;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.blue-source .group:hover .group-hover\:scale-\[1\.04\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-scale-x: 1.04;
+  --tw-scale-y: 1.04;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.blue-source .group:hover .group-hover\:border-tapas-accent\/40:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  border-color: rgb(11 120 200 / 0.4);
+}
+
+.blue-source .group:hover .group-hover\:bg-white\/25:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  background-color: rgb(255 255 255 / 0.25);
+}
+
+.blue-source .group:hover .group-hover\:text-tapas-accent:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-text-opacity: 1;
+  color: rgb(11 120 200 / var(--tw-text-opacity, 1));
+}
+
+.blue-source .group:hover .group-hover\:text-tapas-accent-hover:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  --tw-text-opacity: 1;
+  color: rgb(9 97 161 / var(--tw-text-opacity, 1));
+}
+
+.blue-source .group:hover .group-hover\:opacity-100:not(:where(.tapas-gallery, .tapas-gallery *)) {
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .blue-source .motion-reduce\:animate-none:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.motion-reduce\:animate-none:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    animation: none;
+  }
+
+  .blue-source .motion-reduce\:opacity-100:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.motion-reduce\:opacity-100:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    opacity: 1;
+  }
+
+  .blue-source .motion-reduce\:transition-none:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.motion-reduce\:transition-none:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    transition-property: none;
+  }
+
+  .blue-source .motion-reduce\:hover\:transform-none:hover:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.motion-reduce\:hover\:transform-none:hover:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    transform: none;
+  }
+}
+
+@media (min-width: 640px) {
+  .blue-source .sm\:left-3\.5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:left-3\.5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    left: 0.875rem;
+  }
+
+  .blue-source .sm\:left-6:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:left-6:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    left: 1.5rem;
+  }
+
+  .blue-source .sm\:right-3\.5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:right-3\.5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    right: 0.875rem;
+  }
+
+  .blue-source .sm\:right-4:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:right-4:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    right: 1rem;
+  }
+
+  .blue-source .sm\:right-6:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:right-6:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    right: 1.5rem;
+  }
+
+  .blue-source .sm\:top-4:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:top-4:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    top: 1rem;
+  }
+
+  .blue-source .sm\:top-6:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:top-6:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    top: 1.5rem;
+  }
+
+  .blue-source .sm\:mb-12:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:mb-12:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    margin-bottom: 3rem;
+  }
+
+  .blue-source .sm\:mb-3:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:mb-3:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    margin-bottom: 0.75rem;
+  }
+
+  .blue-source .sm\:mb-4:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:mb-4:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    margin-bottom: 1rem;
+  }
+
+  .blue-source .sm\:mb-8:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:mb-8:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    margin-bottom: 2rem;
+  }
+
+  .blue-source .sm\:mt-0:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:mt-0:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    margin-top: 0px;
+  }
+
+  .blue-source .sm\:mt-2:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:mt-2:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    margin-top: 0.5rem;
+  }
+
+  .blue-source .sm\:mt-5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:mt-5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    margin-top: 1.25rem;
+  }
+
+  .blue-source .sm\:mt-8:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:mt-8:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    margin-top: 2rem;
+  }
+
+  .blue-source .sm\:line-clamp-none:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:line-clamp-none:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    overflow: visible;
+    display: block;
+    -webkit-box-orient: horizontal;
+    -webkit-line-clamp: none;
+  }
+
+  .blue-source .sm\:inline-block:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:inline-block:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    display: inline-block;
+  }
+
+  .blue-source .sm\:inline:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:inline:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    display: inline;
+  }
+
+  .blue-source .sm\:aspect-\[21\/10\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:aspect-\[21\/10\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    aspect-ratio: 21/10;
+  }
+
+  .blue-source .sm\:h-10:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:h-10:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    height: 2.5rem;
+  }
+
+  .blue-source .sm\:h-12:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:h-12:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    height: 3rem;
+  }
+
+  .blue-source .sm\:h-2\.5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:h-2\.5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    height: 0.625rem;
+  }
+
+  .blue-source .sm\:h-6:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:h-6:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    height: 1.5rem;
+  }
+
+  .blue-source .sm\:h-\[2\.75rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:h-\[2\.75rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    height: 2.75rem;
+  }
+
+  .blue-source .sm\:h-\[220px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:h-\[220px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    height: 220px;
+  }
+
+  .blue-source .sm\:h-\[310px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:h-\[310px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    height: 310px;
+  }
+
+  .blue-source .sm\:h-\[4\.5rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:h-\[4\.5rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    height: 4.5rem;
+  }
+
+  .blue-source .sm\:max-h-\[320px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:max-h-\[320px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    max-height: 320px;
+  }
+
+  .blue-source .sm\:min-h-\[280px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:min-h-\[280px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    min-height: 280px;
+  }
+
+  .blue-source .sm\:w-10:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:w-10:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    width: 2.5rem;
+  }
+
+  .blue-source .sm\:w-12:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:w-12:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    width: 3rem;
+  }
+
+  .blue-source .sm\:w-2\.5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:w-2\.5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    width: 0.625rem;
+  }
+
+  .blue-source .sm\:w-6:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:w-6:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    width: 1.5rem;
+  }
+
+  .blue-source .sm\:w-7:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:w-7:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    width: 1.75rem;
+  }
+
+  .blue-source .sm\:w-\[140px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:w-\[140px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    width: 140px;
+  }
+
+  .blue-source .sm\:w-\[220px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:w-\[220px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    width: 220px;
+  }
+
+  .blue-source .sm\:max-w-\[340px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:max-w-\[340px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    max-width: 340px;
+  }
+
+  .blue-source .sm\:grid-cols-2:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:grid-cols-2:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .blue-source .sm\:grid-cols-3:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:grid-cols-3:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .blue-source .sm\:flex-row:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:flex-row:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    flex-direction: row;
+  }
+
+  .blue-source .sm\:items-end:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:items-end:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    align-items: flex-end;
+  }
+
+  .blue-source .sm\:justify-between:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:justify-between:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    justify-content: space-between;
+  }
+
+  .blue-source .sm\:gap-16:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:gap-16:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    gap: 4rem;
+  }
+
+  .blue-source .sm\:gap-2:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:gap-2:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    gap: 0.5rem;
+  }
+
+  .blue-source .sm\:gap-24:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:gap-24:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    gap: 6rem;
+  }
+
+  .blue-source .sm\:gap-3:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:gap-3:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    gap: 0.75rem;
+  }
+
+  .blue-source .sm\:gap-4:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:gap-4:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    gap: 1rem;
+  }
+
+  .blue-source .sm\:gap-6:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:gap-6:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    gap: 1.5rem;
+  }
+
+  .blue-source .sm\:gap-8:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:gap-8:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    gap: 2rem;
+  }
+
+  .blue-source .sm\:rounded-\[16px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:rounded-\[16px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    border-radius: 16px;
+  }
+
+  .blue-source .sm\:rounded-\[18px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:rounded-\[18px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    border-radius: 18px;
+  }
+
+  .blue-source .sm\:border-r:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:border-r:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    border-right-width: 1px;
+  }
+
+  .blue-source .sm\:border-tapas-border:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:border-tapas-border:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    --tw-border-opacity: 1;
+    border-color: rgb(214 236 255 / var(--tw-border-opacity, 1));
+  }
+
+  .blue-source .sm\:p-12:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:p-12:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    padding: 3rem;
+  }
+
+  .blue-source .sm\:p-4:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:p-4:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    padding: 1rem;
+  }
+
+  .blue-source .sm\:p-5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:p-5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    padding: 1.25rem;
+  }
+
+  .blue-source .sm\:p-6:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:p-6:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    padding: 1.5rem;
+  }
+
+  .blue-source .sm\:p-7:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:p-7:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    padding: 1.75rem;
+  }
+
+  .blue-source .sm\:p-8:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:p-8:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    padding: 2rem;
+  }
+
+  .blue-source .sm\:px-10:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:px-10:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .blue-source .sm\:px-6:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:px-6:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .blue-source .sm\:px-8:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:px-8:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .blue-source .sm\:py-14:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:py-14:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .blue-source .sm\:py-2:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:py-2:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .blue-source .sm\:pb-24:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:pb-24:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    padding-bottom: 6rem;
+  }
+
+  .blue-source .sm\:pl-4:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:pl-4:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    padding-left: 1rem;
+  }
+
+  .blue-source .sm\:pr-2:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:pr-2:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    padding-right: 0.5rem;
+  }
+
+  .blue-source .sm\:pr-2\.5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:pr-2\.5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    padding-right: 0.625rem;
+  }
+
+  .blue-source .sm\:pt-4:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:pt-4:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    padding-top: 1rem;
+  }
+
+  .blue-source .sm\:pt-8:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:pt-8:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    padding-top: 2rem;
+  }
+
+  .blue-source .sm\:text-left:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:text-left:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    text-align: left;
+  }
+
+  .blue-source .sm\:text-2xl:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:text-2xl:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .blue-source .sm\:text-3xl:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:text-3xl:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .blue-source .sm\:text-4xl:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:text-4xl:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .blue-source .sm\:text-6xl:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:text-6xl:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .blue-source .sm\:text-\[0\.85rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:text-\[0\.85rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    font-size: 0.85rem;
+  }
+
+  .blue-source .sm\:text-\[1\.02rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:text-\[1\.02rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    font-size: 1.02rem;
+  }
+
+  .blue-source .sm\:text-\[1\.05rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:text-\[1\.05rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    font-size: 1.05rem;
+  }
+
+  .blue-source .sm\:text-\[1\.5rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:text-\[1\.5rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    font-size: 1.5rem;
+  }
+
+  .blue-source .sm\:text-base:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:text-base:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .blue-source .sm\:text-lg:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:text-lg:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .blue-source .sm\:text-sm:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:text-sm:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
+  .blue-source .sm\:text-xl:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:text-xl:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .blue-source .sm\:text-xs:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:text-xs:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
+  .blue-source .sm\:tracking-\[0\.16em\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:tracking-\[0\.16em\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    letter-spacing: 0.16em;
+  }
+
+  .blue-source .sm\:last\:border-r-0:last-child:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.sm\:last\:border-r-0:last-child:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    border-right-width: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .blue-source .md\:order-1:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.md\:order-1:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    order: 1;
+  }
+
+  .blue-source .md\:order-2:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.md\:order-2:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    order: 2;
+  }
+
+  .blue-source .md\:-mx-8:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.md\:-mx-8:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    margin-left: -2rem;
+    margin-right: -2rem;
+  }
+
+  .blue-source .md\:-mb-8:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.md\:-mb-8:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    margin-bottom: -2rem;
+  }
+
+  .blue-source .md\:aspect-auto:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.md\:aspect-auto:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    aspect-ratio: auto;
+  }
+
+  .blue-source .md\:min-h-\[360px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.md\:min-h-\[360px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    min-height: 360px;
+  }
+
+  .blue-source .md\:max-w-\[420px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.md\:max-w-\[420px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    max-width: 420px;
+  }
+
+  .blue-source .md\:grid-cols-2:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.md\:grid-cols-2:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .blue-source .md\:grid-cols-3:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.md\:grid-cols-3:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .blue-source .md\:grid-cols-4:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.md\:grid-cols-4:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .blue-source .md\:flex-row:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.md\:flex-row:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    flex-direction: row;
+  }
+
+  .blue-source .md\:items-start:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.md\:items-start:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    align-items: flex-start;
+  }
+
+  .blue-source .md\:gap-12:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.md\:gap-12:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    gap: 3rem;
+  }
+
+  .blue-source .md\:gap-16:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.md\:gap-16:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    gap: 4rem;
+  }
+
+  .blue-source .md\:gap-20:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.md\:gap-20:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    gap: 5rem;
+  }
+
+  .blue-source .md\:gap-28:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.md\:gap-28:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    gap: 7rem;
+  }
+
+  .blue-source .md\:gap-32:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.md\:gap-32:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    gap: 8rem;
+  }
+
+  .blue-source .md\:gap-8:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.md\:gap-8:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    gap: 2rem;
+  }
+
+  .blue-source .md\:p-10:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.md\:p-10:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    padding: 2.5rem;
+  }
+
+  .blue-source .md\:p-12:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.md\:p-12:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    padding: 3rem;
+  }
+
+  .blue-source .md\:p-14:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.md\:p-14:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    padding: 3.5rem;
+  }
+
+  .blue-source .md\:p-7:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.md\:p-7:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    padding: 1.75rem;
+  }
+
+  .blue-source .md\:p-8:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.md\:p-8:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    padding: 2rem;
+  }
+
+  .blue-source .md\:p-9:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.md\:p-9:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    padding: 2.25rem;
+  }
+
+  .blue-source .md\:px-10:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.md\:px-10:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .blue-source .md\:px-8:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.md\:px-8:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .blue-source .md\:pb-10:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.md\:pb-10:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    padding-bottom: 2.5rem;
+  }
+
+  .blue-source .md\:pb-5:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.md\:pb-5:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    padding-bottom: 1.25rem;
+  }
+
+  .blue-source .md\:pb-8:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.md\:pb-8:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    padding-bottom: 2rem;
+  }
+
+  .blue-source .md\:pt-10:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.md\:pt-10:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    padding-top: 2.5rem;
+  }
+
+  .blue-source .md\:pt-12:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.md\:pt-12:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    padding-top: 3rem;
+  }
+
+  .blue-source .md\:pt-14:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.md\:pt-14:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    padding-top: 3.5rem;
+  }
+
+  .blue-source .md\:pt-6:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.md\:pt-6:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    padding-top: 1.5rem;
+  }
+
+  .blue-source .md\:text-left:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.md\:text-left:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    text-align: left;
+  }
+
+  .blue-source .md\:text-2xl:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.md\:text-2xl:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .blue-source .md\:text-3xl:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.md\:text-3xl:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .blue-source .md\:text-\[0\.85rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.md\:text-\[0\.85rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    font-size: 0.85rem;
+  }
+
+  .blue-source .md\:text-\[0\.8rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.md\:text-\[0\.8rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    font-size: 0.8rem;
+  }
+
+  .blue-source .md\:text-\[1\.05rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.md\:text-\[1\.05rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    font-size: 1.05rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .blue-source .min-\[900px\]\:mx-0:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.min-\[900px\]\:mx-0:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .blue-source .min-\[900px\]\:max-w-\[520px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.min-\[900px\]\:max-w-\[520px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    max-width: 520px;
+  }
+
+  .blue-source .min-\[900px\]\:flex-1:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.min-\[900px\]\:flex-1:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    flex: 1 1 0%;
+  }
+
+  .blue-source .min-\[900px\]\:flex-row:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.min-\[900px\]\:flex-row:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    flex-direction: row;
+  }
+
+  .blue-source .min-\[900px\]\:justify-between:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.min-\[900px\]\:justify-between:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    justify-content: space-between;
+  }
+
+  .blue-source .min-\[900px\]\:gap-14:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.min-\[900px\]\:gap-14:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    gap: 3.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .blue-source .min-\[992px\]\:block:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.min-\[992px\]\:block:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    display: block;
+  }
+
+  .blue-source .min-\[992px\]\:hidden:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.min-\[992px\]\:hidden:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .blue-source .lg\:sticky:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.lg\:sticky:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    position: sticky;
+  }
+
+  .blue-source .lg\:top-24:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.lg\:top-24:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    top: 6rem;
+  }
+
+  .blue-source .lg\:block:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.lg\:block:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    display: block;
+  }
+
+  .blue-source .lg\:w-\[260px\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.lg\:w-\[260px\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    width: 260px;
+  }
+
+  .blue-source .lg\:grid-cols-3:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.lg\:grid-cols-3:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .blue-source .lg\:grid-cols-4:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.lg\:grid-cols-4:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .blue-source .lg\:flex-row:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.lg\:flex-row:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    flex-direction: row;
+  }
+
+  .blue-source .lg\:text-4xl:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.lg\:text-4xl:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .blue-source .lg\:text-\[2\.75rem\]:not(:where(.tapas-gallery, .tapas-gallery *)),.blue-source.lg\:text-\[2\.75rem\]:not(:where(.tapas-gallery, .tapas-gallery *)) {
+    font-size: 2.75rem;
+  }
+}

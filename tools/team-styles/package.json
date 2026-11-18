@@ -1,0 +1,9 @@
+{
+  "name": "tapas-team-style-builder",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "tailwindcss": "4.3.3",
+    "@tailwindcss/cli": "4.3.3"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "source_contract_checks": [
+    {
+      "target": "src/app/page.tsx",
+      "source": "/Users/dhirjain/Documents/ChatGPT/Tapas-home-gallery/src/app/page.tsx",
+      "source_sha256": "021e39d6497270d5187a6893fe8c28a82fcacfa6487c65486585f76d5b5afaf7",
+      "integrated_sha256": "021e39d6497270d5187a6893fe8c28a82fcacfa6487c65486585f76d5b5afaf7",
+      "verified": "byte-identical"
+    },
+    {
+      "target": "src/components/resources/CoreEcosystemGrid.tsx",
+      "source": "/Users/dhirjain/Documents/Codex/2026-11-18/realtime-voice-chat/outputs/TAPAS-Integrated/integration-sources/resources/src/components/resources/CoreEcosystemGrid.tsx",
+      "source_sha256": "a8eca245b5210fca425ede2bd267ed71d3f1c1f2f2a370b07294c17e3e863798",
+      "integrated_sha256": "a8eca245b5210fca425ede2bd267ed71d3f1c1f2f2a370b07294c17e3e863798",
+      "verified": "byte-identical"
+    },
+    {
+      "target": "src/components/resources/GuidedMeditationVideo.tsx",
+      "source": "/Users/dhirjain/Documents/Codex/2026-11-18/realtime-voice-chat/outputs/TAPAS-Integrated/integration-sources/resources/src/components/resources/GuidedMeditationVideo.tsx",
+      "source_sha256": "a57167140a19b4630d5e241895d1f4b45755f56d530ea9541685f7aec3e5f87e",
+      "integrated_sha256": "a57167140a19b4630d5e241895d1f4b45755f56d530ea9541685f7aec3e5f87e",
+      "verified": "byte-identical"
+    },
+    {
+      "target": "src/components/resources/ResourcesHero.tsx",
+      "source": "/Users/dhirjain/Documents/Codex/2026-11-18/realtime-voice-chat/outputs/TAPAS-Integrated/integration-sources/resources/src/components/resources/ResourcesHero.tsx",
+      "source_sha256": "ba17a068156a1aa7bd1be50d5f6832864b8427498488a8363e6f912f2d23ae54",
+      "integrated_sha256": "ba17a068156a1aa7bd1be50d5f6832864b8427498488a8363e6f912f2d23ae54",
+      "verified": "byte-identical"
+    },
+    {
+      "target": "src/components/resources/RecommendedReading.tsx",
+      "source": "/Users/dhirjain/Documents/Codex/2026-11-18/realtime-voice-chat/outputs/TAPAS-Integrated/integration-sources/resources/src/components/resources/RecommendedReading.tsx",
+      "source_sha256": "df29f3d98ee0b4450c73056b5b5f0292f0def52dd1a9e518ab0db38676d95772",
+      "integrated_sha256": "df29f3d98ee0b4450c73056b5b5f0292f0def52dd1a9e518ab0db38676d95772",
+      "verified": "byte-identical"
+    },
+    {
+      "target": "src/components/resources/DigitalToolsSection.tsx",
+      "source": "/Users/dhirjain/Documents/Codex/2026-11-18/realtime-voice-chat/outputs/TAPAS-Integrated/integration-sources/resources/src/components/resources/DigitalToolsSection.tsx",
+      "source_sha256": "6fb420fa968cd5f28e18eb4402533e67762b10e720c08bdbbefd201b68d7e907",
+      "integrated_sha256": "6fb420fa968cd5f28e18eb4402533e67762b10e720c08bdbbefd201b68d7e907",
+      "verified": "byte-identical"
+    },
+    {
+      "target": "src/data/resources.ts",
+      "source": "/Users/dhirjain/Documents/Codex/2026-11-18/realtime-voice-chat/outputs/TAPAS-Integrated/integration-sources/resources/src/data/resources.ts",
+      "source_sha256": "6163e5b2f39a07de194771e810127c1677c51c76b4c1086d3fd5a6c2555d88ec",
+      "integrated_sha256": "6163e5b2f39a07de194771e810127c1677c51c76b4c1086d3fd5a6c2555d88ec",
+      "verified": "byte-identical"
+    },
+    {
+      "target": "src/app/resources/page.tsx",
+      "source": "/Users/dhirjain/Documents/Codex/2026-11-18/realtime-voice-chat/outputs/TAPAS-Integrated/integration-sources/resources/src/app/resources/page.tsx",
+      "source_sha256": "9ccdc0d40b8086a690364011c3a3a73580c0f47cf861e89b5c4f31db69710e92",
+      "integrated_sha256": "9ccdc0d40b8086a690364011c3a3a73580c0f47cf861e89b5c4f31db69710e92",
+      "verified": "byte-identical"
+    },
+    {
+      "target": "src/modules/team/components/team/team-member-list.tsx",
+      "source": "/Users/dhirjain/Documents/Codex/2026-11-18/realtime-voice-chat/outputs/TAPAS-Integrated/integration-sources/team/components/team/team-member-list.tsx",
+      "source_sha256": "b71ce3740969fb95cdc2d9310fbfdfd96f44e0b98f257f659f1d77ab9240a0c8",
+      "integrated_sha256": "0b0351246eed0c777da54c41181e1bad9eadfd1ce1255dddb9bafa009b3fcf2e",
+      "verified": "identical after import/route/style-scope normalization"
+    },
+    {
+      "target": "src/modules/team/components/team/past-teams-archive.tsx",
+      "source": "/Users/dhirjain/Documents/Codex/2026-11-18/realtime-voice-chat/outputs/TAPAS-Integrated/integration-sources/team/components/team/past-teams-archive.tsx",
+      "source_sha256": "c65ba9c7e6f2d1df0d3408941159643de9ef801409deeed97fac81bdb21cb9e7",
+      "integrated_sha256": "72f3c4ae693f8cd6f7499f44539fa7b89d3cbc9f9e441aadae942c33328304c5",
+      "verified": "identical after import/route/style-scope normalization"
+    },
+    {
+      "target": "src/modules/team/components/team/team-page.tsx",
+      "source": "/Users/dhirjain/Documents/Codex/2026-11-18/realtime-voice-chat/outputs/TAPAS-Integrated/integration-sources/team/components/team/team-page.tsx",
+      "source_sha256": "6f37283b7a9e41106f57bf9792ffaf9b0aea5790541064135b2a68ee0000347c",
+      "integrated_sha256": "ba78745c483c56cb15b79c4d057ff9b46ce61749978996daf927b96ccb78e1f7",
+      "verified": "identical after import/route/style-scope normalization"
+    },
+    {
+      "target": "src/modules/team/components/team/current-team-section.tsx",
+      "source": "/Users/dhirjain/Documents/Codex/2026-11-18/realtime-voice-chat/outputs/TAPAS-Integrated/integration-sources/team/components/team/current-team-section.tsx",
+      "source_sha256": "2cbc07e60ad53d3c8851170b6a796700a6380a14ef6405470765b1f08ee0eb4b",
+      "integrated_sha256": "c6f613595bf045f5b9a19fd9d32989240dd97de769993b4579ee26c4db1d3d49",
+      "verified": "identical after import/route/style-scope normalization"
+    },
+    {
+      "target": "src/modules/team/components/team/team-photo.tsx",
+      "source": "/Users/dhirjain/Documents/Codex/2026-11-18/realtime-voice-chat/outputs/TAPAS-Integrated/integration-sources/team/components/team/team-photo.tsx",
+      "source_sha256": "0ce79d65d60e49a338f0f5ecf349cdafd5971431dee5f2781e93b1a0d2a2d39a",
+      "integrated_sha256": "0ce79d65d60e49a338f0f5ecf349cdafd5971431dee5f2781e93b1a0d2a2d39a",
+      "verified": "byte-identical"
+    },
+    {
+      "target": "src/modules/team/data/team.ts",
+      "source": "/Users/dhirjain/Documents/Codex/2026-11-18/realtime-voice-chat/outputs/TAPAS-Integrated/integration-sources/team/data/team.ts",
+      "source_sha256": "903176986ca54865e7a6c6f2df2d8fc5dd9c2a22930cbd10ed871ce89c3d7552",
+      "integrated_sha256": "71032ccb0765fb8ae386e9087a1f2e49e19b5b5fff0686c0b9b68d6895679ad7",
+      "verified": "identical after import/route/style-scope normalization"
+    },
+    {
+      "target": "src/modules/team/types/team.ts",
+      "source": "/Users/dhirjain/Documents/Codex/2026-11-18/realtime-voice-chat/outputs/TAPAS-Integrated/integration-sources/team/types/team.ts",
+      "source_sha256": "a9777ae04a03a642ffa9dce3eacc018fdac5a1a632789777203e9c36de7575ff",
+      "integrated_sha256": "a9777ae04a03a642ffa9dce3eacc018fdac5a1a632789777203e9c36de7575ff",
+      "verified": "byte-identical"
+    },
+    {
+      "target": "src/modules/events/EventsPage.tsx",
+      "source": "/Users/dhirjain/Documents/ChatGPT/Tapas-reviews/events-archive-20261118-171336/source/src/app/events/page.tsx",
+      "source_sha256": "52cafa457cfa3a381e22d804c41cc67702dad6a1a5c5021002d32009496a7657",
+      "integrated_sha256": "154ffb533491d6c0431e11b5cdb9f034193212e756ab1b50d72c1d7e6b5b2cfc",
+      "verified": "identical after import/route/style-scope normalization"
+    },
+    {
+      "target": "src/modules/events/EventDetail.tsx",
+      "source": "/Users/dhirjain/Documents/ChatGPT/Tapas-reviews/events-archive-20261118-171336/source/src/components/EventDetail.tsx",
+      "source_sha256": "30c3d69c9b91933e8179fe293af7fe67a67ec73ac6957fb693ee432408438ffd",
+      "integrated_sha256": "20783bd1174c796fc4d899b5975203bdc066b486a53fc9472d41aa9b7b24fb3d",
+      "verified": "identical after import/route/style-scope normalization"
+    },
+    {
+      "target": "src/modules/events/data.ts",
+      "source": "/Users/dhirjain/Documents/ChatGPT/Tapas-reviews/events-archive-20261118-171336/source/src/data/events.ts",
+      "source_sha256": "085955674ccf37649b2cf0ab21593c32a8203d79dd00127114bfbddc0d7c2166",
+      "integrated_sha256": "d6d47756608d27c9e7d881471c65d8733bdefc71e1699efb1d1dec2b50c482dd",
+      "verified": "identical after import/route/style-scope normalization"
+    },
+    {
+      "target": "src/modules/events/types.ts",
+      "source": "/Users/dhirjain/Documents/ChatGPT/Tapas-reviews/events-archive-20261118-171336/source/src/types/index.ts",
+      "source_sha256": "2f2a77b97efb42722a166c174acf4b40b14a290372c9c5bfd45096f7a0487009",
+      "integrated_sha256": "2f2a77b97efb42722a166c174acf4b40b14a290372c9c5bfd45096f7a0487009",
+      "verified": "byte-identical"
+    },
+    {
+      "target": "src/app/events/[id]/page.tsx",
+      "source": "/Users/dhirjain/Documents/ChatGPT/Tapas-reviews/events-archive-20261118-171336/source/src/app/events/[id]/page.tsx",
+      "source_sha256": "4a8e8c4fdaf24a448f873d35fa79feb07b7fe61d1170da8df0c9ad1e3a1e2e15",
+      "integrated_sha256": "da8c032fdf8f8598baff4b19b71a05729cb361e56a1044d96528ea3bb9432baa",
+      "verified": "identical after import/route/style-scope normalization"
+    },
+    {
+      "target": "src/modules/gallery/data/events.js",
+      "source": "/Users/dhirjain/Documents/Codex/2026-11-13/referenced-chatgpt-conversation-this-is-an/outputs/TAPAS-React/src/data/events.js",
+      "source_sha256": "8990fec0e4a8634b3d52bdf7a74231e658c3cdfbb9a03b57ae806d546988161c",
+      "integrated_sha256": "8990fec0e4a8634b3d52bdf7a74231e658c3cdfbb9a03b57ae806d546988161c",
+      "verified": "byte-identical"
+    },
+    {
+      "target": "src/modules/gallery/components/shared.jsx",
+      "source": "/Users/dhirjain/Documents/Codex/2026-11-13/referenced-chatgpt-conversation-this-is-an/outputs/TAPAS-React/src/components/shared.jsx",
+      "source_sha256": "ed5d6041be06e381f21ac2721f6951ee87a606eca70f5a90c7d464e1a4d2b453",
+      "integrated_sha256": "ed5d6041be06e381f21ac2721f6951ee87a606eca70f5a90c7d464e1a4d2b453",
+      "verified": "byte-identical"
+    },
+    {
+      "target": "src/app/join/FeedbackForm.tsx",
+      "source": "/Users/dhirjain/Documents/Codex/2026-11-18/realtime-voice-chat/outputs/TAPAS-Integrated/integration-sources/about-join/join/FeedbackForm.tsx",
+      "source_sha256": "3299af87d4911e9d4d67943098c14f44b4c6ef402866dc61930c73afb774362d",
+      "integrated_sha256": "3299af87d4911e9d4d67943098c14f44b4c6ef402866dc61930c73afb774362d",
+      "verified": "byte-identical"
+    }
+  ],
+  "asset_files_compared": 230,
+  "saved_github_snapshot_hashes_verified": 103,
+  "home_grid_handoff_files_byteidentical": 23,
+  "home_grid_routing_adaptation": "HomePhotoGrid.jsx changes internal anchors to next/link; text, classes, geometry and rotation unchanged."
+}

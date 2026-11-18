@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap");
+
+.tapas-home-grid {
+  color-scheme: light;
+  --canvas: #EAF6FF;
+  --surface: #F0F8FF;
+  --ink: #1F3A5F;
+  --muted: #4A6283;
+  --accent: #0B78C8;
+  --line: #D6ECFF;
+  --radius: 12px;
+  --heading: Lora, Georgia, "Times New Roman", serif;
+  --body: "Plus Jakarta Sans", system-ui, "Segoe UI", sans-serif;
+  --content: 1136px;
+}
+.tapas-home-grid * { box-sizing: border-box; }
+.tapas-home-grid { margin: 0; background: var(--canvas); color: var(--ink); font: 16px/1.55 var(--body); }
+.tapas-home-grid img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.tapas-home-grid a { color: var(--accent); text-underline-offset: .28em; }
+.tapas-home-grid .action-link { display: inline-flex; align-items: center; gap: .55em; min-height: 44px; padding: 8px 18px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface); color: var(--ink); font-size: .95rem; font-weight: 600; text-decoration: none; transition: background-color .2s ease, border-color .2s ease; }
+.tapas-home-grid .action-link:hover { background: #f6fbff; border-color: var(--accent); }
+.tapas-home-grid button, .tapas-home-grid select { font: inherit; color: var(--ink); }
+.tapas-home-grid button { cursor: pointer; }
+.tapas-home-grid button:disabled { opacity: .45; cursor: default; }
+.tapas-home-grid :focus-visible { outline: 3px solid var(--accent); outline-offset: 4px; }
+.tapas-home-grid [hidden] { display: none !important; }
+.tapas-home-grid .wrap { width: min(calc(100% - 64px), var(--content)); margin-inline: auto; }
+.tapas-home-grid .bar { position: sticky; top: 0; z-index: 10; background: var(--surface); border-bottom: 1px solid var(--line); }
+.tapas-home-grid .bar .wrap { display: flex; justify-content: space-between; align-items: center; gap: 18px; min-height: 72px; }
+.tapas-home-grid .brand { display: block; flex: none; }
+.tapas-home-grid .brand img { width: 140px; height: 44px; object-fit: contain; object-position: left; }
+.tapas-home-grid nav { display: flex; gap: clamp(12px, 2.1vw, 27px); }
+.tapas-home-grid nav a { padding: 10px 2px 4px; color: var(--ink); border-bottom: 2px solid transparent; text-decoration: none; font-size: .95rem; font-weight: 500; white-space: nowrap; }
+.tapas-home-grid nav a:hover, .tapas-home-grid nav [aria-current] { color: var(--accent); }
+.tapas-home-grid nav [aria-current] { border-color: var(--accent); }
+.tapas-home-grid .bar .join-link { color: white; background: var(--accent); border-color: var(--accent); white-space: nowrap; }
+.tapas-home-grid .bar .join-link:hover { background: #0965AA; border-color: #0965AA; }
+.tapas-home-grid .intro { margin-block: clamp(32px, 5vw, 62px) clamp(22px, 3vw, 34px); display: flex; justify-content: space-between; gap: 16px; align-items: end; }
+.tapas-home-grid h1, .tapas-home-grid h2, .tapas-home-grid h3, .tapas-home-grid p { margin: 0; }
+.tapas-home-grid h1, .tapas-home-grid h2, .tapas-home-grid h3 { font-family: var(--heading); font-weight: 600; line-height: 1.16; }
+.tapas-home-grid h1 { font-size: clamp(2.2rem, 5vw, 3.5rem); letter-spacing: -.025em; }
+.tapas-home-grid h2 { font-size: clamp(1.75rem, 3.5vw, 2.5rem); letter-spacing: -.02em; }
+.tapas-home-grid .intro p { margin-top: 8px; color: var(--muted); }
+.tapas-home-grid .sample { color: var(--muted); font-size: .82rem; }
+.tapas-home-grid .circle { border: 1px solid var(--line); background: var(--surface); border-radius: 50%; width: 44px; height: 44px; }
+.tapas-home-grid .circle:hover { border-color: var(--accent); }
+@media (max-width: 620px) {
+  .tapas-home-grid .wrap { width: calc(100% - 40px); }
+  .tapas-home-grid .intro { align-items: start; flex-direction: column; }
+  .tapas-home-grid nav { gap: 12px; }
+}
+@media (max-width: 930px) {
+  .tapas-home-grid .bar .wrap:has(.join-link) { display: grid; grid-template-columns: 1fr auto; gap: 0 12px; padding-block: 8px; }
+  .tapas-home-grid .bar .wrap:has(.join-link) nav { grid-column: 1 / -1; grid-row: 2; overflow-x: auto; scrollbar-width: thin; padding: 0 4px 3px; }
+  .tapas-home-grid .bar .join-link { grid-column: 2; grid-row: 1; }
+}
+
+.tapas-home-grid .photo-grid { display: grid; grid-template-columns: var(--left, 600fr) var(--middle, 426fr) var(--right, 310fr); gap: clamp(8px, 1.5vw, 20px); height: clamp(370px, 43vw, 510px); transition: grid-template-columns 1.45s cubic-bezier(.25,.65,.24,1); }
+.tapas-home-grid .grid-column { display: grid; grid-template-rows: var(--top, 60fr) var(--bottom, 40fr); min-width: 0; min-height: 0; gap: inherit; transition: grid-template-rows 1.45s cubic-bezier(.25,.65,.24,1); }
+.tapas-home-grid .grid-pair { display: grid; grid-template-columns: var(--first, 50fr) var(--second, 50fr); min-height: 0; gap: inherit; transition: grid-template-columns 1.45s cubic-bezier(.25,.65,.24,1); }
+.tapas-home-grid .grid-tile { display: block; position: relative; overflow: clip; min-height: 0; min-width: 0; border-radius: var(--radius); background: var(--line); isolation: isolate; }
+.tapas-home-grid .grid-tile:focus-visible { outline-offset: 2px; z-index: 1; }
+.tapas-home-grid .grid-tile img { position: absolute; inset: 0; }
+.tapas-home-grid .grid-tile .incoming { z-index: 1; }
+.tapas-home-grid .tile-caption { position: absolute; z-index: 2; inset: auto 0 0; pointer-events: none; opacity: 0; transition: opacity .45s ease; padding: 30px 14px 12px; color: white; background: linear-gradient(transparent, #102639e8); line-height: 1.1; }
+.tapas-home-grid .tile-caption strong { display: block; font: clamp(17px, 2.5vw, 32px) var(--heading); }
+.tapas-home-grid .tile-caption small { display: block; margin-top: 4px; font-size: .78rem; }
+.tapas-home-grid .grid-tile[data-featured] .tile-caption, .tapas-home-grid .grid-tile:hover .tile-caption, .tapas-home-grid .grid-tile:focus-visible .tile-caption { opacity: 1; }
+.tapas-home-grid .grid-actions { display: flex; justify-content: flex-end; border-top: 1px solid var(--line); margin-top: 24px; padding-block: 12px 42px; }
+@media (max-width: 650px) {
+  .tapas-home-grid .photo-grid { height: auto; grid-template-columns: 1fr; }
+  .tapas-home-grid .grid-column { display: contents; }
+  .tapas-home-grid .grid-pair { display: none; }
+  .tapas-home-grid .grid-tile:not([data-mobile]) { display: none; }
+  .tapas-home-grid .grid-tile { aspect-ratio: 4 / 3; }
+  .tapas-home-grid .photo-grid { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .tapas-home-grid .grid-tile[data-mobile="lead"] { grid-column: 1 / -1; aspect-ratio: 16 / 9; }
+  .tapas-home-grid .grid-tile[data-mobile="lead"] .tile-caption { opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .tapas-home-grid .photo-grid, .tapas-home-grid .grid-column, .tapas-home-grid .grid-pair, .tapas-home-grid .tile-caption { transition: none; }
+}
+.tapas-home-grid .grid-intro { text-align: center; margin-block: clamp(28px, 5vw, 56px) clamp(22px, 4vw, 44px); }
+.tapas-home-grid .grid-intro p { margin: .65rem auto 0; max-width: 36rem; color: var(--muted); font-size: 1.05rem; line-height: 1.7; }
+.tapas-home-grid #event-albums { scroll-margin-top: 125px; }
+.tapas-home-grid .intro-links, .tapas-home-grid .slide-context, .tapas-home-grid .slide-controls, .tapas-home-grid .arrows { display:flex; align-items:center; gap:14px; flex-wrap:wrap; }
+.tapas-home-grid .slide-stage { position:relative; overflow:hidden; aspect-ratio: 2.36; border-radius: var(--radius); background:var(--line); touch-action:pan-y; }
+.tapas-home-grid .slide-stage img { position:absolute; inset:0; animation:slide-in .75s ease both; }
+@keyframes slide-in { from { opacity:0; } to { opacity:1; } }
+.tapas-home-grid .slide-rail { display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:12px; padding:15px 0; }
+.tapas-home-grid .slide-context h2 { font-size:clamp(23px,3vw,32px); }
+.tapas-home-grid .slide-dots { display:flex; }
+.tapas-home-grid .slide-dot { width:30px; height:44px; border:0; background:none; display:grid; place-items:center; }
+.tapas-home-grid .slide-dot::after { content:''; width:8px; height:8px; border-radius:50%; border:1px solid var(--accent); }
+.tapas-home-grid .slide-dot[aria-current]::after { background:var(--chakra-gold-line); border-color:var(--chakra-gold-ink); }
+.tapas-home-grid .gallery-section { margin-top:clamp(36px,6vw,75px); border-top:1px solid var(--line); padding-top:clamp(22px,4vw,40px); }
+.tapas-home-grid .section-heading { display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:14px; margin-bottom:20px; }
+.tapas-home-grid .moments-list { display:grid; grid-auto-flow:column; grid-auto-columns:calc((100% - 36px)/3); gap:18px; overflow-x:auto; scroll-snap-type:x mandatory; padding:4px 4px 12px; }
+.tapas-home-grid .moment { appearance:none; border:0; background:transparent; padding:0; text-align:left; scroll-snap-align:start; }
+.tapas-home-grid .moment img, .tapas-home-grid .album-card img { aspect-ratio:4 / 3; height:auto; border-radius:var(--radius); }
+.tapas-home-grid .year-picker { display:flex; gap:10px; align-items:center; flex-wrap:wrap; font-size:.88rem; }
+.tapas-home-grid .year-picker select { border:1px solid var(--chakra-gold-line); border-radius:8px; background:var(--chakra-yellow); min-height:44px; padding-inline:10px; }
+.tapas-home-grid .album-list { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; margin-bottom:52px; }
+.tapas-home-grid .album-card { display:grid; grid-template-columns:minmax(90px,42%) 1fr; gap:16px; align-items:center; background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:10px; }
+.tapas-home-grid .event-date { color:var(--muted); font-size:.83rem; margin-bottom:4px; }
+.tapas-home-grid .album-card h3 { font-size:clamp(21px,3vw,31px); margin-bottom:8px; }
+.tapas-home-grid .album-top { display:flex; justify-content:space-between; align-items:center; gap:12px; margin:28px 0 18px; }
+.tapas-home-grid .album-hero { margin-top:22px; aspect-ratio:2.2; border-radius:var(--radius); overflow:hidden; }
+.tapas-home-grid .album-recap { color:var(--muted); margin-top:10px; }
+.tapas-home-grid .album-photos { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:20px; }
+.tapas-home-grid .related { display:flex; gap:32px; flex-wrap:wrap; padding-bottom:45px; }
+.tapas-home-grid #photo-viewer { width:min(calc(100% - 22px),880px); max-height:calc(100dvh - 22px); border:1px solid var(--line); border-radius:var(--radius); color:var(--ink); background:var(--surface); padding:0; }
+.tapas-home-grid #photo-viewer::backdrop { background:#0b1e32db; }
+.tapas-home-grid .viewer-shell { padding:12px; }
+.tapas-home-grid .viewer-top, .tapas-home-grid .viewer-bottom { display:flex; justify-content:space-between; align-items:center; gap:10px; }
+.tapas-home-grid .viewer-bottom { flex-wrap:wrap; margin-top:8px; }
+.tapas-home-grid .viewer-media { height:min(62dvh,530px); margin-top:8px; background:#112437; border-radius:8px; overflow:hidden; touch-action:pan-y; }
+.tapas-home-grid .viewer-media img { object-fit:contain; }
+.tapas-home-grid .visually-hidden { position:absolute; width:1px; height:1px; padding:0; overflow:hidden; clip-path:inset(50%); white-space:nowrap; }
+@media (max-width:650px) {
+  .tapas-home-grid .slide-stage, .tapas-home-grid .album-hero { aspect-ratio:4 / 3; }
+  .tapas-home-grid .slide-controls { gap:10px; }
+  .tapas-home-grid .moments-list { grid-auto-columns:78%; }
+  .tapas-home-grid .album-list { grid-template-columns:1fr; }
+  .tapas-home-grid .album-photos { grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+}
+@media (prefers-reduced-motion:reduce) { .tapas-home-grid .slide-stage img { animation:none; } }
+.tapas-home-grid .gallery-footer { margin-top: clamp(36px,6vw,75px); padding-block: 32px; background: var(--surface); border-top: 1px solid var(--line); }
+.tapas-home-grid .chakra-note { max-width: 54ch; font-size: .85rem; color: var(--muted); }
+.tapas-home-grid .chakra-note summary { cursor: pointer; width: fit-content; color: var(--ink); }
+.tapas-home-grid .chakra-note summary::marker { color: var(--chakra-gold-ink); }
+.tapas-home-grid .chakra-note p { margin-top: 8px; }
+
+.tapas-home-grid { display: flow-root; }

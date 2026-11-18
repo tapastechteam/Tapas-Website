@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resources | TAPAS-PCE | Heartfulness Meditation and Wellness Club</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            tapas: {
+              bg: '#eaf6ff',
+              soft: '#f0f8ff',
+              sky: '#e6f4ff',
+              pastel: '#dff1ff',
+              border: '#d6ecff',
+              text: '#1f3a5f',
+              muted: '#4a6283',
+              accent: {
+                DEFAULT: '#0b78c8',
+                hover: '#0961a1',
+              },
+            },
+          },
+          fontFamily: {
+            heading: ['Lora', 'Georgia', 'serif'],
+            body: ['Plus Jakarta Sans', 'sans-serif'],
+          },
+        },
+      },
+    };
+  </script>
+  <style>
+    body {
+      background-color: #eaf6ff;
+      color: #1f3a5f;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    ::selection {
+      background-color: #dff1ff;
+      color: #0b78c8;
+    }
+  </style>
+</head>
+<body class="bg-tapas-bg text-tapas-text antialiased min-h-screen flex flex-col">
+
+  <!-- NAVIGATION BAR (Exact replica of tapasnewone-m3he) -->
+  <header class="sticky top-0 z-[100] bg-tapas-soft border-b border-tapas-border w-full">
+    <div class="w-full max-w-[1200px] mx-auto px-5 md:px-8 flex items-center justify-between h-[4.5rem] py-2">
+      <a class="flex items-center text-decoration-none" href="#">
+        <div class="flex items-center gap-2">
+          <div class="w-8 h-8 rounded-full bg-tapas-accent flex items-center justify-center text-white font-heading font-bold text-lg shadow-sm">
+            T
+          </div>
+          <span class="font-heading font-bold text-[1.25rem] text-tapas-text tracking-tight">TAPAS<span class="text-tapas-accent font-normal text-sm ml-1">PCE</span></span>
+        </div>
+      </a>
+      <nav class="hidden min-[992px]:block" aria-label="Main Navigation">
+        <ul class="flex list-none gap-[1.75rem] items-center m-0 p-0">
+          <li><a class="text-[0.95rem] font-medium pb-1 relative transition-colors duration-200 text-tapas-text hover:text-tapas-accent" href="#">Home</a></li>
+          <li><a class="text-[0.95rem] font-medium pb-1 relative transition-colors duration-200 text-tapas-text hover:text-tapas-accent" href="#">About</a></li>
+          <li><a class="text-[0.95rem] font-medium pb-1 relative transition-colors duration-200 text-tapas-text hover:text-tapas-accent" href="#">Meditation</a></li>
+          <li><a class="text-[0.95rem] font-medium pb-1 relative transition-colors duration-200 text-tapas-text hover:text-tapas-accent" href="#">Events</a></li>
+          <li><a class="text-[0.95rem] font-medium pb-1 relative transition-colors duration-200 text-tapas-accent underline underline-offset-[6px] decoration-2" href="#">Resources</a></li>
+          <li><a class="text-[0.95rem] font-medium pb-1 relative transition-colors duration-200 text-tapas-text hover:text-tapas-accent" href="#">Team</a></li>
+        </ul>
+      </nav>
+      <div class="hidden min-[992px]:block">
+        <a class="inline-flex items-center justify-center bg-tapas-accent text-white px-5 py-[0.6rem] rounded-[6px] text-[0.95rem] font-semibold transition-colors duration-200 hover:bg-tapas-accent-hover shadow-sm" href="#">Join Tapas</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN RESOURCES CONTENT CONTAINER -->
+  <main class="flex-1">
+    <div class="w-full max-w-[1200px] mx-auto px-5 md:px-8 flex flex-col gap-16 md:gap-20 pt-8 pb-24 md:pt-12">
+      
+      <!-- A. MINIMALIST PAGE HEADER -->
+      <section class="pt-4 pb-2 md:pt-6" aria-labelledby="resources-hero-heading">
+        <div class="flex flex-col items-start max-w-[850px]">
+          <span class="inline-block text-[0.8rem] md:text-[0.85rem] font-bold tracking-[0.14em] uppercase text-tapas-accent mb-3">
+            Curated Library
+          </span>
+          <h1 id="resources-hero-heading" class="font-heading text-[clamp(2.4rem,5vw,3.5rem)] font-semibold text-tapas-text leading-[1.15] mb-5 tracking-tight">
+            Resources
+          </h1>
+          <p class="text-[clamp(1.05rem,1.8vw,1.2rem)] text-tapas-muted leading-[1.68] mb-8 max-w-[42rem]">
+            Explore the authentic Heartfulness philosophy, certified digital meditation tools, foundational literature, and practical quick-guides designed for balanced engineering student life.
+          </p>
+          <div class="flex flex-wrap items-center gap-2 pt-1 border-t border-tapas-border w-full">
+            <span class="text-[0.78rem] uppercase tracking-wider font-semibold text-tapas-muted mr-1">
+              Jump to:
+            </span>
+            <a href="#ecosystem" class="inline-flex items-center text-[0.84rem] text-tapas-muted bg-tapas-soft border border-tapas-border px-3 py-1 rounded-[6px] hover:text-tapas-accent hover:border-tapas-accent transition-colors">Heartful resource</a>
+            <a href="#digital-tools" class="inline-flex items-center text-[0.84rem] text-tapas-muted bg-tapas-soft border border-tapas-border px-3 py-1 rounded-[6px] hover:text-tapas-accent hover:border-tapas-accent transition-colors">Digital Tools & Media</a>
+            <a href="#recommended-reading" class="inline-flex items-center text-[0.84rem] text-tapas-muted bg-tapas-soft border border-tapas-border px-3 py-1 rounded-[6px] hover:text-tapas-accent hover:border-tapas-accent transition-colors">Recommended Reading</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- B. CORE HEARTFULNESS ECOSYSTEM GRID (7 OFFICIAL LINKS) -->
+      <section id="ecosystem" class="scroll-mt-24">
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
+          <div>
+            <span class="inline-block text-[0.8rem] font-bold tracking-[0.14em] uppercase text-tapas-accent mb-2">
+              Global Network
+            </span>
+            <h2 class="font-heading text-[clamp(1.75rem,3.2vw,2.3rem)] text-tapas-text leading-[1.2] font-semibold">
+              Heartful resource
+            </h2>
+            <p class="text-[0.98rem] text-tapas-muted leading-[1.6] mt-2 max-w-[34rem]">
+              Official global foundations, philosophical archives, and world meditation centers that guide our college chapter.
+            </p>
+          </div>
+
+          <!-- Category Filter Tabs -->
+          <div class="flex flex-wrap items-center gap-1.5 p-1 bg-tapas-soft border border-tapas-border rounded-[8px] self-start md:self-end" id="filter-buttons">
+            <button onclick="filterCategory('All')" class="category-btn text-[0.82rem] px-3 py-1.5 rounded-[6px] font-medium transition-all bg-tapas-accent text-white" data-cat="All">All</button>
+            <button onclick="filterCategory('Guidance')" class="category-btn text-[0.82rem] px-3 py-1.5 rounded-[6px] font-medium transition-all text-tapas-muted hover:bg-tapas-pastel/60" data-cat="Guidance">Guidance</button>
+            <button onclick="filterCategory('Philosophy & Practice')" class="category-btn text-[0.82rem] px-3 py-1.5 rounded-[6px] font-medium transition-all text-tapas-muted hover:bg-tapas-pastel/60" data-cat="Philosophy & Practice">Philosophy</button>
+            <button onclick="filterCategory('Headquarters & Centers')" class="category-btn text-[0.82rem] px-3 py-1.5 rounded-[6px] font-medium transition-all text-tapas-muted hover:bg-tapas-pastel/60" data-cat="Headquarters & Centers">Centers</button>
+            <button onclick="filterCategory('Environment')" class="category-btn text-[0.82rem] px-3 py-1.5 rounded-[6px] font-medium transition-all text-tapas-muted hover:bg-tapas-pastel/60" data-cat="Environment">Environment</button>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" id="ecosystem-cards">
+          <!-- Card 1 -->
+          <a href="https://www.daaji.org/" target="_blank" rel="noopener noreferrer" class="ecosystem-card group bg-tapas-soft border border-tapas-border rounded-[12px] p-6 sm:p-7 shadow-[0_2px_12px_rgba(11,120,200,0.04)] flex flex-col justify-between transition-all duration-200 hover:-translate-y-[3px] hover:border-tapas-accent hover:shadow-[0_6px_24px_rgba(11,120,200,0.09)]" data-category="Guidance">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-4">
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-[6px] text-[0.74rem] font-semibold tracking-wide uppercase bg-tapas-pastel text-tapas-accent border border-tapas-border">Guidance</span>
+                <span class="text-tapas-muted text-[1.15rem] leading-none transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-tapas-accent">↗</span>
+              </div>
+              <h3 class="font-heading text-[1.22rem] text-tapas-text font-semibold leading-[1.3] mb-3 group-hover:text-tapas-accent transition-colors duration-150">Daaji – The Global Guide of Heartfulness</h3>
+              <p class="text-[0.93rem] text-tapas-muted leading-[1.65]">Official portal of Kamlesh D. Patel (Daaji), fourth spiritual guide of the Heartfulness movement and author of international bestsellers.</p>
+            </div>
+            <div class="pt-4 mt-5 border-t border-tapas-border/70 flex items-center justify-between text-[0.8rem] text-tapas-muted">
+              <span class="truncate opacity-75">daaji.org</span>
+              <span class="text-tapas-accent text-[0.8rem] font-medium opacity-0 group-hover:opacity-100 transition-opacity">Visit portal →</span>
+            </div>
+          </a>
+
+          <!-- Card 2 -->
+          <a href="http://sahajmarg.org/" target="_blank" rel="noopener noreferrer" class="ecosystem-card group bg-tapas-soft border border-tapas-border rounded-[12px] p-6 sm:p-7 shadow-[0_2px_12px_rgba(11,120,200,0.04)] flex flex-col justify-between transition-all duration-200 hover:-translate-y-[3px] hover:border-tapas-accent hover:shadow-[0_6px_24px_rgba(11,120,200,0.09)]" data-category="Philosophy & Practice">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-4">
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-[6px] text-[0.74rem] font-semibold tracking-wide uppercase bg-tapas-pastel text-tapas-accent border border-tapas-border">Philosophy & Practice</span>
+                <span class="text-tapas-muted text-[1.15rem] leading-none transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-tapas-accent">↗</span>
+              </div>
+              <h3 class="font-heading text-[1.22rem] text-tapas-text font-semibold leading-[1.3] mb-3 group-hover:text-tapas-accent transition-colors duration-150">Sahaj Marg</h3>
+              <p class="text-[0.93rem] text-tapas-muted leading-[1.65]">The natural path of Raja Yoga meditation focused on the human heart, inner balance, and spiritual evolution.</p>
+            </div>
+            <div class="pt-4 mt-5 border-t border-tapas-border/70 flex items-center justify-between text-[0.8rem] text-tapas-muted">
+              <span class="truncate opacity-75">sahajmarg.org</span>
+              <span class="text-tapas-accent text-[0.8rem] font-medium opacity-0 group-hover:opacity-100 transition-opacity">Visit portal →</span>
+            </div>
+          </a>
+
+          <!-- Card 3 -->
+          <a href="http://www.srcm.org/" target="_blank" rel="noopener noreferrer" class="ecosystem-card group bg-tapas-soft border border-tapas-border rounded-[12px] p-6 sm:p-7 shadow-[0_2px_12px_rgba(11,120,200,0.04)] flex flex-col justify-between transition-all duration-200 hover:-translate-y-[3px] hover:border-tapas-accent hover:shadow-[0_6px_24px_rgba(11,120,200,0.09)]" data-category="Headquarters & Centers">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-4">
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-[6px] text-[0.74rem] font-semibold tracking-wide uppercase bg-tapas-pastel text-tapas-accent border border-tapas-border">Organization</span>
+                <span class="text-tapas-muted text-[1.15rem] leading-none transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-tapas-accent">↗</span>
+              </div>
+              <h3 class="font-heading text-[1.22rem] text-tapas-text font-semibold leading-[1.3] mb-3 group-hover:text-tapas-accent transition-colors duration-150">Shri Ram Chandra Mission</h3>
+              <p class="text-[0.93rem] text-tapas-muted leading-[1.65]">Global non-profit educational and spiritual organization promoting universal brotherhood, meditation, and inner peace since 1945.</p>
+            </div>
+            <div class="pt-4 mt-5 border-t border-tapas-border/70 flex items-center justify-between text-[0.8rem] text-tapas-muted">
+              <span class="truncate opacity-75">srcm.org</span>
+              <span class="text-tapas-accent text-[0.8rem] font-medium opacity-0 group-hover:opacity-100 transition-opacity">Visit portal →</span>
+            </div>
+          </a>
+
+          <!-- Card 4 -->
+          <a href="https://www.spiritualityfoundation.org/" target="_blank" rel="noopener noreferrer" class="ecosystem-card group bg-tapas-soft border border-tapas-border rounded-[12px] p-6 sm:p-7 shadow-[0_2px_12px_rgba(11,120,200,0.04)] flex flex-col justify-between transition-all duration-200 hover:-translate-y-[3px] hover:border-tapas-accent hover:shadow-[0_6px_24px_rgba(11,120,200,0.09)]" data-category="Philosophy & Practice">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-4">
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-[6px] text-[0.74rem] font-semibold tracking-wide uppercase bg-tapas-pastel text-tapas-accent border border-tapas-border">Foundational Wisdom</span>
+                <span class="text-tapas-muted text-[1.15rem] leading-none transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-tapas-accent">↗</span>
+              </div>
+              <h3 class="font-heading text-[1.22rem] text-tapas-text font-semibold leading-[1.3] mb-3 group-hover:text-tapas-accent transition-colors duration-150">Spirituality Foundation</h3>
+              <p class="text-[0.93rem] text-tapas-muted leading-[1.65]">An authentic archive dedicated to preserving timeless spiritual literature, scientific inquiry, and meditative research.</p>
+            </div>
+            <div class="pt-4 mt-5 border-t border-tapas-border/70 flex items-center justify-between text-[0.8rem] text-tapas-muted">
+              <span class="truncate opacity-75">spiritualityfoundation.org</span>
+              <span class="text-tapas-accent text-[0.8rem] font-medium opacity-0 group-hover:opacity-100 transition-opacity">Visit portal →</span>
+            </div>
+          </a>
+
+          <!-- Card 5 -->
+          <a href="https://kanha.sahajmarg.org/" target="_blank" rel="noopener noreferrer" class="ecosystem-card group bg-tapas-soft border border-tapas-border rounded-[12px] p-6 sm:p-7 shadow-[0_2px_12px_rgba(11,120,200,0.04)] flex flex-col justify-between transition-all duration-200 hover:-translate-y-[3px] hover:border-tapas-accent hover:shadow-[0_6px_24px_rgba(11,120,200,0.09)]" data-category="Headquarters & Centers">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-4">
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-[6px] text-[0.74rem] font-semibold tracking-wide uppercase bg-tapas-pastel text-tapas-accent border border-tapas-border">World Headquarters</span>
+                <span class="text-tapas-muted text-[1.15rem] leading-none transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-tapas-accent">↗</span>
+              </div>
+              <h3 class="font-heading text-[1.22rem] text-tapas-text font-semibold leading-[1.3] mb-3 group-hover:text-tapas-accent transition-colors duration-150">Kanha Shanti Vanam</h3>
+              <p class="text-[0.93rem] text-tapas-muted leading-[1.65]">The global headquarters of Heartfulness near Hyderabad, home to the world's largest meditation center accommodating 100,000 seekers.</p>
+            </div>
+            <div class="pt-4 mt-5 border-t border-tapas-border/70 flex items-center justify-between text-[0.8rem] text-tapas-muted">
+              <span class="truncate opacity-75">kanha.sahajmarg.org</span>
+              <span class="text-tapas-accent text-[0.8rem] font-medium opacity-0 group-hover:opacity-100 transition-opacity">Visit portal →</span>
+            </div>
+          </a>
+
+          <!-- Card 6 -->
+          <a href="https://heartfulness.org/kanha/green-initiatives" target="_blank" rel="noopener noreferrer" class="ecosystem-card group bg-tapas-soft border border-tapas-border rounded-[12px] p-6 sm:p-7 shadow-[0_2px_12px_rgba(11,120,200,0.04)] flex flex-col justify-between transition-all duration-200 hover:-translate-y-[3px] hover:border-tapas-accent hover:shadow-[0_6px_24px_rgba(11,120,200,0.09)]" data-category="Environment">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-4">
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-[6px] text-[0.74rem] font-semibold tracking-wide uppercase bg-tapas-pastel text-tapas-accent border border-tapas-border">Ecological Initiative</span>
+                <span class="text-tapas-muted text-[1.15rem] leading-none transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-tapas-accent">↗</span>
+              </div>
+              <h3 class="font-heading text-[1.22rem] text-tapas-text font-semibold leading-[1.3] mb-3 group-hover:text-tapas-accent transition-colors duration-150">Green Kanha</h3>
+              <p class="text-[0.93rem] text-tapas-muted leading-[1.65]">An acclaimed ecological mega-initiative transforming barren land into a lush sanctuary of rare flora, water bodies, and wildlife.</p>
+            </div>
+            <div class="pt-4 mt-5 border-t border-tapas-border/70 flex items-center justify-between text-[0.8rem] text-tapas-muted">
+              <span class="truncate opacity-75">heartfulness.org/kanha</span>
+              <span class="text-tapas-accent text-[0.8rem] font-medium opacity-0 group-hover:opacity-100 transition-opacity">Visit portal →</span>
+            </div>
+          </a>
+
+          <!-- Card 7 -->
+          <a href="https://heartfulness.org/gurugram/" target="_blank" rel="noopener noreferrer" class="ecosystem-card group bg-tapas-soft border border-tapas-border rounded-[12px] p-6 sm:p-7 shadow-[0_2px_12px_rgba(11,120,200,0.04)] flex flex-col justify-between transition-all duration-200 hover:-translate-y-[3px] hover:border-tapas-accent hover:shadow-[0_6px_24px_rgba(11,120,200,0.09)]" data-category="Headquarters & Centers">
+            <div>
+              <div class="flex items-center justify-between gap-2 mb-4">
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-[6px] text-[0.74rem] font-semibold tracking-wide uppercase bg-tapas-pastel text-tapas-accent border border-tapas-border">Urban Center</span>
+                <span class="text-tapas-muted text-[1.15rem] leading-none transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-tapas-accent">↗</span>
+              </div>
+              <h3 class="font-heading text-[1.22rem] text-tapas-text font-semibold leading-[1.3] mb-3 group-hover:text-tapas-accent transition-colors duration-150">Gurugram Meditation Center</h3>
+              <p class="text-[0.93rem] text-tapas-muted leading-[1.65]">A premier green urban retreat and meditation haven in NCR offering silent contemplation, youth workshops, and holistic training.</p>
+            </div>
+            <div class="pt-4 mt-5 border-t border-tapas-border/70 flex items-center justify-between text-[0.8rem] text-tapas-muted">
+              <span class="truncate opacity-75">heartfulness.org/gurugram</span>
+              <span class="text-tapas-accent text-[0.8rem] font-medium opacity-0 group-hover:opacity-100 transition-opacity">Visit portal →</span>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!-- C. DIGITAL TOOLS & PUBLICATIONS -->
+      <section id="digital-tools" class="scroll-mt-24">
+        <div class="mb-8">
+          <span class="inline-block text-[0.8rem] font-bold tracking-[0.14em] uppercase text-tapas-accent mb-2">Practices & Media</span>
+          <h2 class="font-heading text-[clamp(1.75rem,3.2vw,2.3rem)] text-tapas-text leading-[1.2] font-semibold">Digital Tools &amp; Publications</h2>
+          <p class="text-[0.98rem] text-tapas-muted leading-[1.6] mt-2 max-w-[34rem]">Free mobile applications, digital reading editions, and video masterclasses accessible whenever you need them.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <!-- Tool 1: HeartsApp -->
+          <div class="bg-tapas-soft border border-tapas-border rounded-[12px] p-6 sm:p-7 shadow-[0_2px_12px_rgba(11,120,200,0.04)] flex flex-col justify-between transition-all duration-200 hover:-translate-y-[3px] hover:border-tapas-accent hover:shadow-[0_6px_24px_rgba(11,120,200,0.09)] group">
+            <div>
+              <div class="flex items-center justify-between gap-3 mb-5">
+                <div class="w-10 h-10 rounded-[8px] bg-tapas-sky border border-tapas-border flex items-center justify-center shrink-0">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" class="w-5 h-5 text-tapas-accent"><rect x="5" y="2" width="14" height="20" rx="3" ry="3"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+                </div>
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-[6px] text-[0.74rem] font-medium uppercase tracking-wider bg-tapas-pastel text-tapas-muted border border-tapas-border">Free Mobile App</span>
+              </div>
+              <h3 class="font-heading text-[1.28rem] text-tapas-text font-semibold mb-2 group-hover:text-tapas-accent transition-colors">HeartsApp</h3>
+              <p class="text-[0.93rem] text-tapas-muted leading-[1.65] mb-5">Free guided meditation sessions with certified live trainers available 24/7 across the globe at the tap of a button.</p>
+              <ul class="list-none p-0 m-0 space-y-1.5 mb-6 text-[0.85rem] text-tapas-muted">
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-tapas-accent/60 shrink-0"></span><span>On-demand live trainers</span></li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-tapas-accent/60 shrink-0"></span><span>Daily mood tracking</span></li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-tapas-accent/60 shrink-0"></span><span>Guided relaxation tracks</span></li>
+              </ul>
+            </div>
+            <div class="pt-4 border-t border-tapas-border">
+              <a href="https://heartfulness.org/en/heartsapp/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center w-full gap-2 bg-tapas-sky text-tapas-text border border-tapas-border py-2.5 px-4 rounded-[6px] text-[0.9rem] font-semibold transition-all hover:bg-tapas-accent hover:text-white hover:border-tapas-accent">
+                <span>Explore HeartsApp</span>
+                <span class="text-[1rem] leading-none">↗</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Tool 2: Magazine -->
+          <div class="bg-tapas-soft border border-tapas-border rounded-[12px] p-6 sm:p-7 shadow-[0_2px_12px_rgba(11,120,200,0.04)] flex flex-col justify-between transition-all duration-200 hover:-translate-y-[3px] hover:border-tapas-accent hover:shadow-[0_6px_24px_rgba(11,120,200,0.09)] group">
+            <div>
+              <div class="flex items-center justify-between gap-3 mb-5">
+                <div class="w-10 h-10 rounded-[8px] bg-tapas-sky border border-tapas-border flex items-center justify-center shrink-0">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" class="w-5 h-5 text-tapas-accent"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="10" x2="14" y2="10"/></svg>
+                </div>
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-[6px] text-[0.74rem] font-medium uppercase tracking-wider bg-tapas-pastel text-tapas-muted border border-tapas-border">Monthly Publication</span>
+              </div>
+              <h3 class="font-heading text-[1.28rem] text-tapas-text font-semibold mb-2 group-hover:text-tapas-accent transition-colors">Heartfulness Magazine</h3>
+              <p class="text-[0.93rem] text-tapas-muted leading-[1.65] mb-5">Monthly articles, science-backed research, and practical essays on mindfulness, focus, emotional fitness, and balanced living.</p>
+              <ul class="list-none p-0 m-0 space-y-1.5 mb-6 text-[0.85rem] text-tapas-muted">
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-tapas-accent/60 shrink-0"></span><span>Free digital access</span></li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-tapas-accent/60 shrink-0"></span><span>Interviews with thought leaders</span></li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-tapas-accent/60 shrink-0"></span><span>Self-development exercises</span></li>
+              </ul>
+            </div>
+            <div class="pt-4 border-t border-tapas-border">
+              <a href="https://www.heartfulnessmagazine.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center w-full gap-2 bg-tapas-sky text-tapas-text border border-tapas-border py-2.5 px-4 rounded-[6px] text-[0.9rem] font-semibold transition-all hover:bg-tapas-accent hover:text-white hover:border-tapas-accent">
+                <span>Read Online Edition</span>
+                <span class="text-[1rem] leading-none">↗</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Tool 3: YouTube -->
+          <div class="bg-tapas-soft border border-tapas-border rounded-[12px] p-6 sm:p-7 shadow-[0_2px_12px_rgba(11,120,200,0.04)] flex flex-col justify-between transition-all duration-200 hover:-translate-y-[3px] hover:border-tapas-accent hover:shadow-[0_6px_24px_rgba(11,120,200,0.09)] group">
+            <div>
+              <div class="flex items-center justify-between gap-3 mb-5">
+                <div class="w-10 h-10 rounded-[8px] bg-tapas-sky border border-tapas-border flex items-center justify-center shrink-0">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" class="w-5 h-5 text-tapas-accent"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                </div>
+                <span class="inline-flex items-center px-2.5 py-0.5 rounded-[6px] text-[0.74rem] font-medium uppercase tracking-wider bg-tapas-pastel text-tapas-muted border border-tapas-border">Official Channel</span>
+              </div>
+              <h3 class="font-heading text-[1.28rem] text-tapas-text font-semibold mb-2 group-hover:text-tapas-accent transition-colors">Heartfulness YouTube</h3>
+              <p class="text-[0.93rem] text-tapas-muted leading-[1.65] mb-5">Extensive video archive featuring guided relaxation audios, student masterclasses, and talks by Daaji on personal evolution.</p>
+              <ul class="list-none p-0 m-0 space-y-1.5 mb-6 text-[0.85rem] text-tapas-muted">
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-tapas-accent/60 shrink-0"></span><span>Guided relaxation videos</span></li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-tapas-accent/60 shrink-0"></span><span>Student masterclasses</span></li>
+                <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-tapas-accent/60 shrink-0"></span><span>Youth podcasts & Q&As</span></li>
+              </ul>
+            </div>
+            <div class="pt-4 border-t border-tapas-border">
+              <a href="https://www.youtube.com/@heartfulness" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center w-full gap-2 bg-tapas-sky text-tapas-text border border-tapas-border py-2.5 px-4 rounded-[6px] text-[0.9rem] font-semibold transition-all hover:bg-tapas-accent hover:text-white hover:border-tapas-accent">
+                <span>Watch on YouTube</span>
+                <span class="text-[1rem] leading-none">↗</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- D. RECOMMENDED READING (BOOKSHELF) -->
+      <section id="recommended-reading" class="scroll-mt-24">
+        <div class="mb-8">
+          <span class="inline-block text-[0.8rem] font-bold tracking-[0.14em] uppercase text-tapas-accent mb-2">Curated Bookshelf</span>
+          <h2 class="font-heading text-[clamp(1.75rem,3.2vw,2.3rem)] text-tapas-text leading-[1.2] font-semibold">Recommended Reading</h2>
+          <p class="text-[0.98rem] text-tapas-muted leading-[1.6] mt-2 max-w-[34rem]">Foundational books by global guide Kamlesh D. Patel (Daaji), providing practical wisdom for inner transformation and daily clarity.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <!-- Book 1 -->
+          <article class="group bg-tapas-soft border border-tapas-border rounded-[12px] p-6 sm:p-7 shadow-[0_2px_12px_rgba(11,120,200,0.04)] flex flex-col justify-between transition-all duration-200 hover:-translate-y-[3px] hover:border-tapas-accent hover:shadow-[0_6px_24px_rgba(11,120,200,0.09)]">
+            <div>
+              <div class="relative w-full h-[140px] mb-6 rounded-[8px] bg-gradient-to-r from-tapas-sky via-tapas-soft to-tapas-pastel border border-tapas-border p-4 flex flex-col justify-between overflow-hidden shadow-inner">
+                <div class="absolute left-0 top-0 bottom-0 w-[6px] bg-tapas-accent/40 border-r border-tapas-border"></div>
+                <div class="pl-2 flex items-center justify-between">
+                  <span class="inline-flex items-center px-2 py-0.5 rounded-[4px] text-[0.7rem] font-semibold tracking-wide uppercase border bg-emerald-50 text-emerald-700 border-emerald-200">Beginners</span>
+                  <span class="text-[0.72rem] font-mono text-tapas-muted tracking-widest uppercase">PCE Library</span>
+                </div>
+                <div class="pl-2">
+                  <p class="font-heading text-[1.12rem] text-tapas-text font-semibold leading-tight line-clamp-2">The Heartfulness Way</p>
+                  <p class="text-[0.8rem] text-tapas-muted mt-0.5 truncate">Kamlesh D. Patel (Daaji)</p>
+                </div>
+              </div>
+              <div class="mb-4">
+                <h3 class="font-heading text-[1.28rem] text-tapas-text font-semibold leading-snug mb-1 group-hover:text-tapas-accent transition-colors">The Heartfulness Way</h3>
+                <p class="text-[0.88rem] text-tapas-muted">By <span class="font-medium text-tapas-text">Kamlesh D. Patel (Daaji)</span> with Joshua Pollock</p>
+              </div>
+              <div class="bg-tapas-sky/70 border-l-2 border-tapas-accent p-3 rounded-r-[6px] mb-4">
+                <p class="text-[0.84rem] text-tapas-text font-medium leading-relaxed italic">“A practical dialogue unveiling the simple science of heart-centered meditation for modern everyday life.”</p>
+              </div>
+              <p class="text-[0.91rem] text-tapas-muted leading-[1.6] mb-6">Structured as an accessible conversation between a seeker and Daaji, this book demystifies meditation, cleaning, and prayer without dogma.</p>
+            </div>
+            <div class="pt-4 border-t border-tapas-border">
+              <a href="https://theheartfulnessway.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-between w-full text-[0.88rem] font-semibold text-tapas-accent hover:text-tapas-accent-hover transition-colors">
+                <span>Read Overview &amp; Chapters</span>
+                <span>→</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Book 2 -->
+          <article class="group bg-tapas-soft border border-tapas-border rounded-[12px] p-6 sm:p-7 shadow-[0_2px_12px_rgba(11,120,200,0.04)] flex flex-col justify-between transition-all duration-200 hover:-translate-y-[3px] hover:border-tapas-accent hover:shadow-[0_6px_24px_rgba(11,120,200,0.09)]">
+            <div>
+              <div class="relative w-full h-[140px] mb-6 rounded-[8px] bg-gradient-to-r from-tapas-sky via-tapas-soft to-tapas-pastel border border-tapas-border p-4 flex flex-col justify-between overflow-hidden shadow-inner">
+                <div class="absolute left-0 top-0 bottom-0 w-[6px] bg-tapas-accent/40 border-r border-tapas-border"></div>
+                <div class="pl-2 flex items-center justify-between">
+                  <span class="inline-flex items-center px-2 py-0.5 rounded-[4px] text-[0.7rem] font-semibold tracking-wide uppercase border bg-sky-50 text-tapas-accent border-sky-200">Habits & Focus</span>
+                  <span class="text-[0.72rem] font-mono text-tapas-muted tracking-widest uppercase">PCE Library</span>
+                </div>
+                <div class="pl-2">
+                  <p class="font-heading text-[1.12rem] text-tapas-text font-semibold leading-tight line-clamp-2">Designing Destiny</p>
+                  <p class="text-[0.8rem] text-tapas-muted mt-0.5 truncate">Kamlesh D. Patel (Daaji)</p>
+                </div>
+              </div>
+              <div class="mb-4">
+                <h3 class="font-heading text-[1.28rem] text-tapas-text font-semibold leading-snug mb-1 group-hover:text-tapas-accent transition-colors">Designing Destiny</h3>
+                <p class="text-[0.88rem] text-tapas-muted">By <span class="font-medium text-tapas-text">Kamlesh D. Patel (Daaji)</span></p>
+              </div>
+              <div class="bg-tapas-sky/70 border-l-2 border-tapas-accent p-3 rounded-r-[6px] mb-4">
+                <p class="text-[0.84rem] text-tapas-text font-medium leading-relaxed italic">“Learn how the ancient principles of destiny and karma can be consciously rewritten through disciplined mental habits.”</p>
+              </div>
+              <p class="text-[0.91rem] text-tapas-muted leading-[1.6] mb-6">Essential reading for students navigating high-stakes academic pressure, personal identity, decision making, and lifestyle balance.</p>
+            </div>
+            <div class="pt-4 border-t border-tapas-border">
+              <a href="https://designingdestiny.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-between w-full text-[0.88rem] font-semibold text-tapas-accent hover:text-tapas-accent-hover transition-colors">
+                <span>Read Overview &amp; Chapters</span>
+                <span>→</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Book 3 -->
+          <article class="group bg-tapas-soft border border-tapas-border rounded-[12px] p-6 sm:p-7 shadow-[0_2px_12px_rgba(11,120,200,0.04)] flex flex-col justify-between transition-all duration-200 hover:-translate-y-[3px] hover:border-tapas-accent hover:shadow-[0_6px_24px_rgba(11,120,200,0.09)]">
+            <div>
+              <div class="relative w-full h-[140px] mb-6 rounded-[8px] bg-gradient-to-r from-tapas-sky via-tapas-soft to-tapas-pastel border border-tapas-border p-4 flex flex-col justify-between overflow-hidden shadow-inner">
+                <div class="absolute left-0 top-0 bottom-0 w-[6px] bg-tapas-accent/40 border-r border-tapas-border"></div>
+                <div class="pl-2 flex items-center justify-between">
+                  <span class="inline-flex items-center px-2 py-0.5 rounded-[4px] text-[0.7rem] font-semibold tracking-wide uppercase border bg-indigo-50 text-indigo-700 border-indigo-200">Deeper Practice</span>
+                  <span class="text-[0.72rem] font-mono text-tapas-muted tracking-widest uppercase">PCE Library</span>
+                </div>
+                <div class="pl-2">
+                  <p class="font-heading text-[1.12rem] text-tapas-text font-semibold leading-tight line-clamp-2">Spiritual Anatomy</p>
+                  <p class="text-[0.8rem] text-tapas-muted mt-0.5 truncate">Kamlesh D. Patel (Daaji)</p>
+                </div>
+              </div>
+              <div class="mb-4">
+                <h3 class="font-heading text-[1.28rem] text-tapas-text font-semibold leading-snug mb-1 group-hover:text-tapas-accent transition-colors">Spiritual Anatomy</h3>
+                <p class="text-[0.88rem] text-tapas-muted">By <span class="font-medium text-tapas-text">Kamlesh D. Patel (Daaji)</span></p>
+              </div>
+              <div class="bg-tapas-sky/70 border-l-2 border-tapas-accent p-3 rounded-r-[6px] mb-4">
+                <p class="text-[0.84rem] text-tapas-text font-medium leading-relaxed italic">“An atlas of the sixteen chakras and energy points guiding your journey of consciousness through the spiritual anatomy.”</p>
+              </div>
+              <p class="text-[0.91rem] text-tapas-muted leading-[1.6] mb-6">A profound roadmap mapping ancient yogic wisdom to neurological and physiological insights for advanced seekers.</p>
+            </div>
+            <div class="pt-4 border-t border-tapas-border">
+              <a href="https://spiritualanatomy.com/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-between w-full text-[0.88rem] font-semibold text-tapas-accent hover:text-tapas-accent-hover transition-colors">
+                <span>Read Overview &amp; Chapters</span>
+                <span>→</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Recommended Reading closed -->
+
+    </div>
+  </main>
+
+  <!-- FOOTER (Exact replica of tapasnewone-m3he) -->
+  <footer class="bg-tapas-soft border-t border-tapas-border pt-14 pb-10 mt-auto">
+    <div class="w-full max-w-[1200px] mx-auto px-5 md:px-8 grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-10 md:gap-14">
+      <div>
+        <h2 class="text-[1.15rem] mb-4 text-tapas-text font-heading font-semibold">Heartfulness network</h2>
+        <ul class="list-none p-0 m-0 grid grid-cols-1 min-[600px]:grid-cols-2 gap-y-[0.6rem] min-[600px]:gap-x-6">
+          <li><a href="https://www.daaji.org/" target="_blank" rel="noopener noreferrer" class="text-[0.92rem] text-tapas-muted inline-block transition-colors duration-200 hover:text-tapas-accent hover:underline">Daaji, the Global Guide of Heartfulness</a></li>
+          <li><a href="https://kanha.sahajmarg.org/" target="_blank" rel="noopener noreferrer" class="text-[0.92rem] text-tapas-muted inline-block transition-colors duration-200 hover:text-tapas-accent hover:underline">Kanha Shanti Vanam</a></li>
+          <li><a href="https://heartfulness.org/kanha/green-initiatives" target="_blank" rel="noopener noreferrer" class="text-[0.92rem] text-tapas-muted inline-block transition-colors duration-200 hover:text-tapas-accent hover:underline">Green Kanha</a></li>
+          <li><a href="http://sahajmarg.org/" target="_blank" rel="noopener noreferrer" class="text-[0.92rem] text-tapas-muted inline-block transition-colors duration-200 hover:text-tapas-accent hover:underline">Sahaj Marg</a></li>
+          <li><a href="http://www.srcm.org/" target="_blank" rel="noopener noreferrer" class="text-[0.92rem] text-tapas-muted inline-block transition-colors duration-200 hover:text-tapas-accent hover:underline">Shri Ram Chandra Mission</a></li>
+          <li><a href="https://heartfulness.org/gurugram/" target="_blank" rel="noopener noreferrer" class="text-[0.92rem] text-tapas-muted inline-block transition-colors duration-200 hover:text-tapas-accent hover:underline">Gurugram Meditation Center</a></li>
+          <li><a href="https://www.spiritualityfoundation.org/" target="_blank" rel="noopener noreferrer" class="text-[0.92rem] text-tapas-muted inline-block transition-colors duration-200 hover:text-tapas-accent hover:underline">Spirituality Foundation</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="text-[1.15rem] mb-4 text-tapas-text font-heading font-semibold">Contact and social</h2>
+        <div class="flex flex-col gap-[0.65rem]">
+          <div class="text-[0.92rem] text-tapas-muted">
+            <span class="font-semibold text-tapas-text mr-[0.35rem]">Email:</span>
+            <a href="mailto:tapas.pce@mes.ac.in" class="text-tapas-muted transition-colors duration-200 hover:text-tapas-accent hover:underline">tapas.pce@mes.ac.in</a>
+          </div>
+          <ul class="list-none p-0 m-0 flex flex-col gap-[0.6rem] mt-[0.35rem]">
+            <li>
+              <a href="https://www.instagram.com/tapas.pce" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-[0.55rem] text-[0.95rem] text-tapas-muted transition-colors duration-200 hover:text-tapas-accent">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-[1.2rem] h-[1.2rem] shrink-0 fill-none stroke-currentColor stroke-2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.5" cy="6.5" r="1.2" class="fill-current"/></svg>
+                <span>Instagram</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/profile.php?id=100092632995551" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-[0.55rem] text-[0.95rem] text-tapas-muted transition-colors duration-200 hover:text-tapas-accent">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-[1.2rem] h-[1.2rem] shrink-0 fill-none stroke-currentColor stroke-2 stroke-linejoin-round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                <span>Facebook</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/tapas-pce-ab809a1a9/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-[0.55rem] text-[0.95rem] text-tapas-muted transition-colors duration-200 hover:text-tapas-accent">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-[1.2rem] h-[1.2rem] shrink-0 fill-none stroke-currentColor stroke-2"><rect x="2" y="2" width="20" height="20" rx="4" ry="4"/><line x1="8" y1="11" x2="8" y2="17"/><line x1="8" y1="8" x2="8" y2="8.01" stroke-width="2.5"/><path d="M12 17v-4a2 2 0 0 1 4 0v4"/><line x1="12" y1="11" x2="12" y2="17"/></svg>
+                <span>LinkedIn</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="w-full max-w-[1200px] mx-auto px-5 md:px-8 mt-12 pt-6 border-t border-tapas-border flex flex-col sm:flex-row items-center justify-between gap-3 text-[0.82rem] text-tapas-muted">
+      <p class="m-0">© 2026 TAPAS-PCE · Pillai College of Engineering, New Panvel.</p>
+      <p class="m-0">Heartfulness Meditation &amp; Wellness Initiative</p>
+    </div>
+  </footer>
+
+  <!-- INTERACTIVITY SCRIPT -->
+  <script>
+    function filterCategory(category) {
+      const cards = document.querySelectorAll('.ecosystem-card');
+      const buttons = document.querySelectorAll('.category-btn');
+
+      buttons.forEach(btn => {
+        if (btn.getAttribute('data-cat') === category) {
+          btn.className = 'category-btn text-[0.82rem] px-3 py-1.5 rounded-[6px] font-medium transition-all bg-tapas-accent text-white shadow-sm';
+        } else {
+          btn.className = 'category-btn text-[0.82rem] px-3 py-1.5 rounded-[6px] font-medium transition-all text-tapas-muted hover:bg-tapas-pastel/60';
+        }
+      });
+
+      cards.forEach(card => {
+        const cardCat = card.getAttribute('data-category');
+        if (category === 'All' || cardCat === category) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+  </script>
+</body>
+</html>
