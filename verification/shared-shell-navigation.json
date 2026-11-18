@@ -1,0 +1,169 @@
+{
+  "desktop": [
+    {
+      "banners": 1,
+      "footer": "RELAX • MEDITATE • REJUVENATE • CONNECT\n\nEmphasizing the mental well-being of students through guided Heartfulness meditation, workshops, and holistic campus initiatives.\n\nJoin Us\nHeartfulness Network\nDaaji, the Global Guide of Heartfulness →\nGreen Kanha →\nShri Ram Chandra Mission →\nHeartfulness Meditation Technique →\nGet in Touch\ntapas.pce@mes.ac.in\n93242 81653\nTAPAS • Pillai University, New Panvel\n•\n© 2026 All rights reserved.",
+      "footers": 1,
+      "header": "Home\nAbout\nTeam\nEvents\nGallery\nResources\nJoin Us",
+      "overflow": false,
+      "splash": false,
+      "url": "http://127.0.0.1:3110/about"
+    },
+    {
+      "banners": 1,
+      "footer": "RELAX • MEDITATE • REJUVENATE • CONNECT\n\nEmphasizing the mental well-being of students through guided Heartfulness meditation, workshops, and holistic campus initiatives.\n\nJoin Us\nHeartfulness Network\nDaaji, the Global Guide of Heartfulness →\nGreen Kanha →\nShri Ram Chandra Mission →\nHeartfulness Meditation Technique →\nGet in Touch\ntapas.pce@mes.ac.in\n93242 81653\nTAPAS • Pillai University, New Panvel\n•\n© 2026 All rights reserved.",
+      "footers": 1,
+      "header": "Home\nAbout\nTeam\nEvents\nGallery\nResources\nJoin Us",
+      "overflow": false,
+      "splash": false,
+      "url": "http://127.0.0.1:3110/team"
+    },
+    {
+      "banners": 1,
+      "footer": "RELAX • MEDITATE • REJUVENATE • CONNECT\n\nEmphasizing the mental well-being of students through guided Heartfulness meditation, workshops, and holistic campus initiatives.\n\nJoin Us\nHeartfulness Network\nDaaji, the Global Guide of Heartfulness →\nGreen Kanha →\nShri Ram Chandra Mission →\nHeartfulness Meditation Technique →\nGet in Touch\ntapas.pce@mes.ac.in\n93242 81653\nTAPAS • Pillai University, New Panvel\n•\n© 2026 All rights reserved.",
+      "footers": 1,
+      "header": "Home\nAbout\nTeam\nEvents\nGallery\nResources\nJoin Us",
+      "overflow": false,
+      "splash": false,
+      "url": "http://127.0.0.1:3110/events?year=2026"
+    },
+    {
+      "banners": 1,
+      "footer": "RELAX • MEDITATE • REJUVENATE • CONNECT\n\nEmphasizing the mental well-being of students through guided Heartfulness meditation, workshops, and holistic campus initiatives.\n\nJoin Us\nHeartfulness Network\nDaaji, the Global Guide of Heartfulness →\nGreen Kanha →\nShri Ram Chandra Mission →\nHeartfulness Meditation Technique →\nGet in Touch\ntapas.pce@mes.ac.in\n93242 81653\nTAPAS • Pillai University, New Panvel\n•\n© 2026 All rights reserved.",
+      "footers": 1,
+      "header": "Home\nAbout\nTeam\nEvents\nGallery\nResources\nJoin Us",
+      "overflow": false,
+      "splash": false,
+      "url": "http://127.0.0.1:3110/gallery"
+    },
+    {
+      "banners": 1,
+      "footer": "RELAX • MEDITATE • REJUVENATE • CONNECT\n\nEmphasizing the mental well-being of students through guided Heartfulness meditation, workshops, and holistic campus initiatives.\n\nJoin Us\nHeartfulness Network\nDaaji, the Global Guide of Heartfulness →\nGreen Kanha →\nShri Ram Chandra Mission →\nHeartfulness Meditation Technique →\nGet in Touch\ntapas.pce@mes.ac.in\n93242 81653\nTAPAS • Pillai University, New Panvel\n•\n© 2026 All rights reserved.",
+      "footers": 1,
+      "header": "Home\nAbout\nTeam\nEvents\nGallery\nResources\nJoin Us",
+      "overflow": false,
+      "splash": false,
+      "url": "http://127.0.0.1:3110/resources"
+    },
+    {
+      "banners": 1,
+      "footer": "RELAX • MEDITATE • REJUVENATE • CONNECT\n\nEmphasizing the mental well-being of students through guided Heartfulness meditation, workshops, and holistic campus initiatives.\n\nJoin Us\nHeartfulness Network\nDaaji, the Global Guide of Heartfulness →\nGreen Kanha →\nShri Ram Chandra Mission →\nHeartfulness Meditation Technique →\nGet in Touch\ntapas.pce@mes.ac.in\n93242 81653\nTAPAS • Pillai University, New Panvel\n•\n© 2026 All rights reserved.",
+      "footers": 1,
+      "header": "Home\nAbout\nTeam\nEvents\nGallery\nResources\nJoin Us",
+      "overflow": false,
+      "splash": false,
+      "url": "http://127.0.0.1:3110/join"
+    },
+    {
+      "banners": 1,
+      "footer": "RELAX • MEDITATE • REJUVENATE • CONNECT\n\nEmphasizing the mental well-being of students through guided Heartfulness meditation, workshops, and holistic campus initiatives.\n\nJoin Us\nHeartfulness Network\nDaaji, the Global Guide of Heartfulness →\nGreen Kanha →\nShri Ram Chandra Mission →\nHeartfulness Meditation Technique →\nGet in Touch\ntapas.pce@mes.ac.in\n93242 81653\nTAPAS • Pillai University, New Panvel\n•\n© 2026 All rights reserved.",
+      "footers": 1,
+      "header": "Home\nAbout\nTeam\nEvents\nGallery\nResources\nJoin Us",
+      "overflow": false,
+      "splash": false,
+      "url": "http://127.0.0.1:3110/"
+    }
+  ],
+  "mobile": [
+    {
+      "footer": 1,
+      "header": 1,
+      "overflow": false,
+      "splash": false,
+      "url": "http://127.0.0.1:3110/",
+      "width": 390
+    },
+    {
+      "footer": 1,
+      "header": 1,
+      "overflow": false,
+      "splash": false,
+      "url": "http://127.0.0.1:3110/about",
+      "width": 390
+    },
+    {
+      "footer": 1,
+      "header": 1,
+      "overflow": false,
+      "splash": false,
+      "url": "http://127.0.0.1:3110/team",
+      "width": 390
+    },
+    {
+      "footer": 1,
+      "header": 1,
+      "overflow": false,
+      "splash": false,
+      "url": "http://127.0.0.1:3110/events?year=2026",
+      "width": 390
+    },
+    {
+      "footer": 1,
+      "header": 1,
+      "overflow": false,
+      "splash": false,
+      "url": "http://127.0.0.1:3110/gallery",
+      "width": 390
+    },
+    {
+      "footer": 1,
+      "header": 1,
+      "overflow": false,
+      "splash": false,
+      "url": "http://127.0.0.1:3110/resources",
+      "width": 390
+    },
+    {
+      "footer": 1,
+      "header": 1,
+      "overflow": false,
+      "splash": false,
+      "url": "http://127.0.0.1:3110/join",
+      "width": 390
+    }
+  ],
+  "history": [
+    {
+      "footer": 1,
+      "header": 1,
+      "splash": false,
+      "url": "http://127.0.0.1:3110/join"
+    },
+    {
+      "footer": 1,
+      "header": 1,
+      "splash": false,
+      "url": "http://127.0.0.1:3110/resources"
+    },
+    {
+      "footer": 1,
+      "header": 1,
+      "splash": false,
+      "url": "http://127.0.0.1:3110/gallery"
+    },
+    {
+      "footer": 1,
+      "header": 1,
+      "splash": false,
+      "url": "http://127.0.0.1:3110/resources"
+    }
+  ],
+  "album": {
+    "footer": 1,
+    "header": 1,
+    "splash": false,
+    "url": "http://127.0.0.1:3110/gallery?event=dhyanotsav-2024"
+  },
+  "eventDetail": {
+    "footers": 1,
+    "headers": 1,
+    "splash": false,
+    "url": "http://127.0.0.1:3110/events/dhyanratri-2026"
+  },
+  "homeGrid": {
+    "footers": 1,
+    "headers": 1,
+    "splash": false,
+    "url": "http://127.0.0.1:3110/gallery?event=wellness-fest-2025"
+  }
+}
